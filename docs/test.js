@@ -153,7 +153,7 @@ export default function test(props) {
       )}
 
       {props.YearEndOnly !== undefined && (
-        <span>{getLastFinancialYear(null, null, null)}</span>
+        <strong>{getLastFinancialYear(null, null, null)}</strong>
       )}
     </>
   );
