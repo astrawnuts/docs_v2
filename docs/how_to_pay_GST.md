@@ -2,6 +2,8 @@
 Title: How To Pay GST?
 ---
 
+import GetGSTPeriods from "./GST_Periods.js";
+
 # How To Pay GST?
 
 ### Steps

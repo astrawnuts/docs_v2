@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function test(props) {
+export default function GetIncTaxPeriods(props) {
   /**
    * Test Cases allows you to define any day month year
    */
