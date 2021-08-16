@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-import Test from "./test";
+<!-- import Test from "./test"; -->
 
 # Welcome
 

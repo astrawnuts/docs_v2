@@ -2,6 +2,11 @@
 
 import GetIncTaxPeriods from "./Income_Tax_Periods.js";
 
+:::tip Financial Return Due:
+<GetIncTaxPeriods />.
+Your financial return for the period listed here is due. Please ignore if filed already.
+:::
+
 ### Steps:
 
 1. Sign in to your internet banking.
@@ -11,6 +16,6 @@ import GetIncTaxPeriods from "./Income_Tax_Periods.js";
 5. Please enter <GetIncTaxPeriods YearEndOnly /> for the tax period (or pick the year that relates to your payment).
 6. Please enter the amount you are paying for that period (note that you can make multiple part payments towards your total tax within the due date).
 
-| ⚠ <GetIncTaxPeriods /> |
+<!-- | ⚠ <GetIncTaxPeriods /> |
 | ---------------------- |
-
+ -->
