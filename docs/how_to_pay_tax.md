@@ -1,8 +1,8 @@
-# How to Pay Tax?
+# How to Pay Tax Online? 🪄
 
 import GetIncTaxPeriods from "./Income_Tax_Periods.js";
 
-:::tip Financial Return Due:
+:::tip Income Tax Financial Return Due:
 <GetIncTaxPeriods />.
 Your financial return for the period listed here is due. Please ignore if filed already.
 :::

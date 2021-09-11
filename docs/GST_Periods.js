@@ -26,11 +26,28 @@ export default function GetGSTPeriods(props) {
     "<br />" +
     endSecondHalf;
 
+    var something = null;
+    let dateCheck = false;
+
+    function x() {
+  
+      if(NZ_Local_Date > new Date(`${YEAR}-03-31`).toLocaleDateString("en-NZ")) {
+        something = new Date(`${YEAR}-0${3}-31`).toLocaleDateString("en-NZ")
+      }
+
+      if(NZ_Local_Date > new Date(`${YEAR}-09-30`).toLocaleDateString("en-NZ")) {
+        something = new Date(`${YEAR}-0${9}-30`).toLocaleDateString("en-NZ")
+      }
+    }
+
+    x(); 
+
   return (
     <>
       {/* <div>Today's Date Is: {NZ_Local_Date}</div> <br /> */}
       <strong>
-        {endFirstHalf} or {endSecondHalf}
+        {endFirstHalf} or {endSecondHalf} or 
+        {/* {something} */}
       </strong>
       {/* <br /> */}
     </>

@@ -2,14 +2,15 @@
 sidebar_position: 1
 slug: /
 ---
+# Welcome to Knowledge Hub! 👋
 
 <!-- import Test from "./test"; -->
 
-# Welcome
-
 Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+### Symbols used on this site
+1. 🪄 represents dynamic content meaning that the page where this icon appears is dynamically updated.
+1. Hello world
 
 Get started by **creating a new site**.
 
