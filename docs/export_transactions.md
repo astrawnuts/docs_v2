@@ -1,5 +1,7 @@
+---
+slug: /exporting-your-bank-transactions
+---
 # How Do I Export My Bank Transactions?
-
 ### For help on exporting your bank transactions in excel (.xls, .xlsx preferred) or .csv formats.
 
 - The process might be slightly different depending on which provider you are banking with.

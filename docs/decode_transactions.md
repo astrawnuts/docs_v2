@@ -1,4 +1,8 @@
+---
+slug: /decoding-your-bank-transactions
+---
 # How To Decode Your Bank Transactions?
+
 
 Decoding means that you should explain what each bank transaction is meant for.
 

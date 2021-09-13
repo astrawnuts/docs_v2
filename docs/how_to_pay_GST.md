@@ -1,15 +1,18 @@
-# How To Pay GST Online? 🪄
+---
+sidebar_label: 'How To Pay GST Online? 🪄'
+---
+# How To Pay GST Online? <Dynamic />
 
-<!-- --- -->
+import Dynamic from "./components/dynamic.js";
+import GetGSTPeriods from "./GST_Periods_V2.js";
 
-<!-- ## Title: How To Pay GST? -->
 
-import GetGSTPeriods from "./GST_Periods.js";
 
 :::tip GST Financial Return Due:
 <GetGSTPeriods />.
 Your financial return for the period listed here is due. Please ignore if filed already.
 :::
+
 
 ### Steps
 

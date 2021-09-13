@@ -1,13 +1,20 @@
-# How to Pay Tax Online? 🪄
+---
+slug: /paying-your-income-tax-online
+sidebar_label: 'How To Pay Tax Online? 🪄'
+---
+# How To Pay Tax Online? <Dynamic />
 
-import GetIncTaxPeriods from "./Income_Tax_Periods.js";
+import GetIncTaxPeriods from "./Income_Tax_Periods_V2.js";
+import Dynamic from "./components/dynamic.js";
+
+
 
 :::tip Income Tax Financial Return Due:
 <GetIncTaxPeriods />.
 Your financial return for the period listed here is due. Please ignore if filed already.
 :::
 
-### Steps:
+### Steps
 
 1. Sign in to your internet banking.
 2. Please select pay tax from the pay and transfer. It could be listed under Payments as IRD Payments or ask your bank.

@@ -2,7 +2,7 @@
 sidebar_position: 1
 slug: /
 ---
-# Welcome to Knowledge Hub! 👋
+# Welcome To Knowledge Hub! 👋
 
 <!-- import Test from "./test"; -->
 
