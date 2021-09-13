@@ -1,5 +1,7 @@
 ---
 sidebar_label: 'How To Pay GST Online? 🪄'
+slug: /paying-your-gst-taxes-online
+
 ---
 # How To Pay GST Online? <Dynamic />
 
