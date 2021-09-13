@@ -3,11 +3,11 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
+  title: "Docs",
   tagline: "Dinosaurs are cool",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn", //ignore, log, warn, error, throw
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "facebook", // Usually your GitHub org/user name.
@@ -41,8 +41,8 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro"
+              label: "Knowledge Base",
+              to: "/docs/welcome"
             }
           ]
         },

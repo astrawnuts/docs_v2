@@ -6,8 +6,6 @@ sidebar_label: 'How To Pay GST Online? 🪄'
 import Dynamic from "./components/dynamic.js";
 import GetGSTPeriods from "./components/GST_Periods_V2.js";
 
-
-
 :::tip GST Financial Return Due:
 <GetGSTPeriods />.
 Your financial return for the period listed here is due. Please ignore if filed already.
@@ -23,4 +21,4 @@ Your financial return for the period listed here is due. Please ignore if filed 
 5. Please enter <GetGSTPeriods /> (six-monthly) for the tax period (or pick the period that relates to your payment). Due dates are 30-10-2019 and 07-05-2020 respectively for the above periods.
 6. Please enter the amount you are paying for that period (note that you can make multiple part payments towards your total GST within the due date).
 
-<!-- <GetGSTPeriods /> -->
+
