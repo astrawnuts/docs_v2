@@ -24,7 +24,7 @@ module.exports = {
           type: "doc",
           docId: "intro",
           position: "left",
-          label: "Tutorial"
+          label: "Knowledge Base"
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
@@ -42,7 +42,7 @@ module.exports = {
           items: [
             {
               label: "Knowledge Base",
-              to: "/docs/welcome"
+              to: "/docs/"
             }
           ]
         },
