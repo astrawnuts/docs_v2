@@ -4,7 +4,7 @@ sidebar_label: 'How To Pay Tax Online? 🪄'
 ---
 # How To Pay Tax Online? <Dynamic />
 
-import GetIncTaxPeriods from "./Income_Tax_Periods_V2.js";
+import GetIncTaxPeriods from "./components/Income_Tax_Periods_V2.js";
 import Dynamic from "./components/dynamic.js";
 
 

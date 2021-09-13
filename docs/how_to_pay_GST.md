@@ -4,7 +4,7 @@ sidebar_label: 'How To Pay GST Online? 🪄'
 # How To Pay GST Online? <Dynamic />
 
 import Dynamic from "./components/dynamic.js";
-import GetGSTPeriods from "./GST_Periods_V2.js";
+import GetGSTPeriods from "./components/GST_Periods_V2.js";
 
 
 
