@@ -1,5 +1,8 @@
 ---
+title: How To Decode Your Bank Transactions?
+sidebar_label: How To Decode Your Bank Transactions?
 slug: /decoding-your-bank-transactions
+date: 2021-09-15T14:15:32.593Z
 ---
 
 # How To Decode Your Bank Transactions?
