@@ -1,6 +1,9 @@
 ---
+title: Say Hello To Knowledge! 👋
+sidebar_label: Welcome To Our Knowledge Base! 👋
 sidebar_position: 1
 slug: /
+date: 2021-09-15T14:39:24.843Z
 ---
 # Say Hello To Knowledge! 👋
 
