@@ -1,7 +1,8 @@
 ---
-sidebar_label: 'How To Pay GST Online? 🪄'
+title: "How To Pay GST Online? "
+sidebar_label: How To Pay GST Online? 🪄
 slug: /paying-your-gst-taxes-online
-
+date: 2021-09-15T14:22:19.234Z
 ---
 # How To Pay GST Online? <Dynamic />
 
