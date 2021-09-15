@@ -1,6 +1,8 @@
 ---
+title: Which Parts of New Zealand do you Serve? 🌏
+sidebar_label: Which Parts of New Zealand do you Serve? 🌏
 slug: /learn-more-about-the-places-where-we-offer-our-services
-# sidebar_label: 'What Does Sole Trader or Self Employed Mean? 👷‍♂️'
+date: 2021-09-15T14:31:02.775Z
 ---
 
 
