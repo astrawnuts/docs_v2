@@ -92,13 +92,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           routeBasePath: "/",
-          editUrl: "https://github.com/astrawnuts/docs_v2/tree/master/docs"
+          editUrl: "https://github.com/astrawnuts/docs_v2/tree/master/"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/astrawnuts/docs_v2/tree/master/blog"
+            "https://github.com/astrawnuts/docs_v2/tree/master/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
