@@ -1,6 +1,8 @@
 ---
+title: What Services does Tax Matterz Offer? ✨
+sidebar_label: What Services does Tax Matterz Offer? ✨
 slug: /learn-more-about-the-services-we-offer
-# sidebar_label: 'What Does Sole Trader or Self Employed Mean? 👷‍♂️'
+date: 2021-09-15T14:29:48.612Z
 ---
 
 
