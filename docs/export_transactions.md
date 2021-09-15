@@ -1,5 +1,8 @@
 ---
+title: How Do I Export My Bank Transactions?
+sidebar_label: How Do I Export My Bank Transactions?
 slug: /exporting-your-bank-transactions
+date: 2021-09-15T14:21:24.027Z
 ---
 # How Do I Export My Bank Transactions?
 ### For help on exporting your bank transactions in excel (.xls, .xlsx preferred) or .csv formats.
