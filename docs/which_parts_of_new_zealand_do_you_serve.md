@@ -5,3 +5,18 @@ slug: /learn-more-about-the-places-where-we-offer-our-services
 
 
 # Which Parts of New Zealand do you Serve? 🌏
+
+Despite our office being located in Auckland we have hundreds of customers all over New Zealand. Our Materons as we like to call them are from the tip of North Island all the way down to the bottom of South Island.
+
+Unlike most other accounting practises we are agile and digital first. Most of our interactions are over the phone, via email or digital means through the use of our digital forms. This gives us the edge and allows us to do the heavy lifting with your accouting work so that you can focus on your business.  
+
+We have (Tax Matterz + Patrons) = Materonz located in:
+
+* Auckland
+* Hamilton
+* Queenstown
+* Christchurch
+* Napier
+* and growing
+
+

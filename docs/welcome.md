@@ -59,7 +59,8 @@ When you work with us and utilize our services you will often come across a vari
 ### Symbols Used On This Site. 📃
 | Symbol | Description |
 | ------ | ----------- |
-| 🪄 | Represents dynamic content meaning that the page where this icon appears is dynamically updated with new content. |
+| <h1>🪄</h1> | Represents dynamic content meaning that the page where this icon appears is updated with new content in realtime. |
+| <h1>🚧</h1> | This means that a page is still a work in progress, it could contain incomplete information or maybe a placeholder for a future page. |
 
 
 
