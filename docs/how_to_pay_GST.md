@@ -14,7 +14,7 @@ Your financial return for the period listed here is due. Please ignore if filed 
 :::
 
 
-### Steps
+### Steps 📃
 
 1. Sign in to your internet banking.
 2. Please select pay tax from the pay and transfer. It could be listed under Payments as IRD Payments or ask your bank.

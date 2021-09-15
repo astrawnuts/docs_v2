@@ -2,15 +2,66 @@
 sidebar_position: 1
 slug: /
 ---
-# Welcome To Knowledge Hub! 👋
+# Say Hello To Knowledge! 👋
+
+:::info Welcome to our Knowledge Base.
+Spend some time and find answers to frequently asked questions. We have designed this Knowledge Base as a place to learn. Let us know if there's is a question you'd like to see here and we may put it up.
+:::
 
 <!-- import Test from "./test"; -->
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **more about Tax Matterz - accounting & Taxation services**.
 
-### Symbols used on this site
-1. 🪄 represents dynamic content meaning that the page where this icon appears is dynamically updated.
-1. Hello world
+
+### Frequently Asked Questions About Us 🙋 
+These are the questions people often ask us about our business. If you have a general question such as how to pay your taxes, what self employed means etc. then you need to browse our site using the navigation bar to find the answer.
+
+<details>  
+<summary>I want to learn more about Tax Matterz - Accounting & Taxation Services | Auckland, NZ</summary>  
+<div>This is the detailed content</div>        
+</details>
+
+<details>  
+<summary>What services do you offer?</summary>  
+<div>This is the detailed content</div>        
+</details>
+
+<details>  
+<summary>Which parts of New Zealand do you offer your services?</summary>  
+<div>This is the detailed content</div>        
+</details>
+
+These should be in the side bar as their own articles
+<!-- <details>  
+<summary>What does self employed/sole trader mean?</summary>  
+<div>This is the detailed content</div>        
+</details>
+
+<!-- <details>  
+<summary>What is a registered company?</summary>  
+<div>This is the detailed content</div>        
+</details> -->
+
+
+### Helpful Links. 🔗
+When you work with us and utilize our services you will often come across a variety of links that we use to help clients get their work done. Here is a breakdown of what some of those links mean and how they can help you to get your accounting & taxation work done.
+
+| Link      | Description |
+| ----------- | ----------- |
+| [taxmatterz.com](https://taxmatterz.com)      | Our main website which contains a plethora of information such as the services we offer, contact information, forms and other helpful tidbits.       |
+| [taxmatterz.co](https://taxmatterz.co)   | We use this domain to share short and memorable links that our customer uses to signup, fill on[line forms, and find out more useful information about us.       |
+| [taxmatterz.co/inc12](https://taxmatterz.co/inc12)   | Fill online form link to submit your income and expenses for each financial year. This form is used to calculate your yearly income tax to pay or tax refund. |
+| [taxmatterz.co/gst6](https://taxmatterz.co/gst6)   | Fill online form link to submit your income and expenses for each six monthly financial pe[riod. This form is used to calculate your yearly GST. |
+| [???](https://taxmatterz.co/gst6)   | This is our knowledge base (the website you are on currently). Our knowledge base is filled with answers to questions our clients often ask.  |
+| [taxmattersnz.co.nz](https://taxmattersnz.co.nz)   | If you are familiar with this link then you are one of the "OG's".       |
+
+
+### Symbols Used On This Site. 📃
+| Symbol | Description |
+| ------ | ----------- |
+| 🪄 | Represents dynamic content meaning that the page where this icon appears is dynamically updated with new content. |
+
+
 
 Get started by **creating a new site**.
 
