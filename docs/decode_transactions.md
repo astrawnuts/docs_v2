@@ -1,6 +1,7 @@
 ---
 slug: /decoding-your-bank-transactions
 ---
+
 # How To Decode Your Bank Transactions?
 
 
