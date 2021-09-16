@@ -4,7 +4,7 @@ sidebar_label: How To Decode Your Bank Transactions? 💳
 slug: /decoding-your-bank-transactions
 date: 2021-09-15T14:15:32.593Z
 ---
-# How To Decode Your Bank Transactions? 💳 {{date}}
+# How To Decode Your Bank Transactions? 💳
 
 Decoding means that you should explain what each bank transaction is meant for.
 
