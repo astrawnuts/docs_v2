@@ -16,7 +16,7 @@ Your financial return for the period listed here is due. Please ignore if filed 
 
 ### Steps 📃
 
-***Note:*** In most cases it is best to pay using through the website of your banking provider rather than using the mobile application (app) for your bank. Usually features are built first for the website then implemented in the mobile banking app. 
+***Note:*** In most cases it is best to pay through the website of your banking provider rather than using the mobile application (app). This is because features are usually built first for the website then implemented in the mobile banking app. 
 
 1. Sign in to your internet banking.
 2. Please select pay tax from the pay and transfer. It could be listed under Payments as IRD Payments or ask your bank.
