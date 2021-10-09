@@ -12,8 +12,6 @@ import Dynamic from "./components/dynamic.js";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-
-
 :::tip Income Tax Financial Return Due:
 <GetIncTaxPeriods />.
 Your financial return for the period listed here is due. Please ignore if filed already.
@@ -30,7 +28,7 @@ Your financial return for the period listed here is due. Please ignore if filed 
   <TabItem value="orange" label="Orange">
     This is an orange 🍊
   </TabItem>
-  <TabItem value="other" label="Other">
+  <TabItem value="other" label="Other" default>
   
 
 1. Open your web browser of choice e.g. Chrome, Firefox, Safari, Edge etc.
@@ -41,11 +39,8 @@ Your financial return for the period listed here is due. Please ignore if filed 
 6. Please enter <GetIncTaxPeriods YearEndOnly /> for the tax period (or pick the year that relates to your payment).
 7. Please enter the amount you are paying for that period (note that you can make multiple part payments towards your total tax within the due date).
 
-
   </TabItem>
 </Tabs>
-
-
 
 <!-- | ⚠ <GetIncTaxPeriods /> |
 | ---------------------- |
