@@ -41,7 +41,6 @@ Your financial return for the period listed here is due. Please ignore if filed 
     This is an orange 🍊
   </TabItem>
   <TabItem value="other" label="Other" default>
-  
 
 1. Open your web browser of choice e.g. Chrome, Firefox, Safari, Edge etc.
 2. Visit your bank's website and sign in to your internet banking.
