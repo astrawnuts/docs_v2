@@ -22,10 +22,22 @@ Your financial return for the period listed here is due. Please ignore if filed 
 ***Note:*** In most cases it is best to pay through the website of your banking provider rather than using the mobile banking application (app). This is because features are usually built first for the website then implemented in the mobile banking app. 
 
 <Tabs>
-  <TabItem value="apple" label="Apple" default>
+  <TabItem value="anz" label="ANZ" >
     This is an apple 🍎
   </TabItem>
-  <TabItem value="orange" label="Orange">
+  <TabItem value="asb" label="ASB">
+    This is an orange 🍊
+  </TabItem>
+
+<TabItem value="bnz" label="BNZ">
+    This is an orange 🍊
+  </TabItem>
+
+<TabItem value="kiwibank" label="Kiwibank">
+    This is an orange 🍊
+  </TabItem>
+
+<TabItem value="westpac" label="Westpac Bank">
     This is an orange 🍊
   </TabItem>
   <TabItem value="other" label="Other" default>
