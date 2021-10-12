@@ -23,12 +23,18 @@
   --ifm-color-primary-lighter: #353853;
   --ifm-color-primary-lightest: #3c405e;
 
-  --ifm-link-color: #1b74e9;
+  
 
   --ifm-tabs-color-active: #1b74e9;
-
   --ifm-navbar-link-hover-color: #1b74e9;
-  --ifm-menu-color-background-active: #1b74e9;
+
+  --ifm-link-color: #1b74e9;
+
+  
+}
+
+a:not(.pagination-nav__link) {
+  --ifm-link-color: #1b74e9;
 }
 
 .docusaurus-highlight-code-line {
@@ -38,14 +44,13 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme="dark"] {
+html[data-theme="dark"] :not(.pagination-nav__link) {
   --ifm-color-primary: white !important;
+  --ifm-menu-color-background-active: #1b74e9;
 }
 
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
- 
-  /* background-color: #a36161; */
 }
 
 h1 {
