@@ -6,7 +6,7 @@ date: 2021-10-13T05:13:59.411Z
 ---
 Here is a list of free software that you may find useful in doing your taxes, or preforming other tasks.
 
-All software listed below works on Windows, Mac OSX, Linux (may need W.I.N.E or PlayOnLinux), Android, iOS
+All software listed below works on Windows, macOS, Linux (may need W.I.N.E or PlayOnLinux), Android, iOS
 
 | Program    |  Description   |   Link  |
 | --- | --- | --- |
