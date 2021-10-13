@@ -22,14 +22,14 @@ module.exports = {
       items: [
         {
           type: "doc",
-          docId: "intro",
+          docId: "welcome",
           position: "left",
           label: "Knowledge Base"
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          href: "https://taxmattersnz.co.nz",
+          label: "Return to Tax Matterz",
           position: "right"
         }
       ]
