@@ -12,7 +12,7 @@ Despite our office being located in Auckland we have hundreds of customers all o
 
 Unlike most other accounting practises we are agile and digital first. Most of our interactions are over the phone, via email or digital means through the use of our digital forms. This gives us the edge and allows us to do the heavy lifting with your accouting work so that you can focus on your business.  
 
-We have (Tax Matterz + Patrons) = Materonz located in:
+We have clients located in:
 
 * Auckland
 * Hamilton
