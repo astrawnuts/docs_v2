@@ -7,6 +7,10 @@ date: 2021-09-15T14:39:24.843Z
 ---
 # Say Hello To Knowledge! 👋
 
+
+
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
 :::info Welcome to our Knowledge Base.
 Spend some time and find answers to frequently asked questions. We have designed this Knowledge Base as a place to learn. Let us know if there's is a question you'd like to see here and we may put it up.
 :::
@@ -78,6 +82,7 @@ Generate a new Docusaurus site using the **classic template**:
 ```shell
 npx @docusaurus/init@latest init my-website classic
 ```
+
 
 ## Start your site
 
