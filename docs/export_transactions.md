@@ -4,7 +4,6 @@ sidebar_label: How Do I Export My Bank Transactions? 📁
 slug: /exporting-your-bank-transactions
 date: 2021-09-15T14:21:24.027Z
 ---
-
 # How Do I Export My Bank Transactions? 📁
 
 import Tabs from "@theme/Tabs";
@@ -12,7 +11,21 @@ import TabItem from "@theme/TabItem";
 
 ### For help on exporting your bank transactions in excel (.xls, .xlsx preferred) or .csv formats.
 
-* The process might be slightly different depending on which provider you are banking with.
+* The process might be slightly different depending on which banking provider you are with.
+* Please only export to one of the following formats:
+* .xls 
+* .xlsx
+* .csv
+
+### Using Apple Numbers?
+
+If you are using Apple Numbers then you must either **export the spreadsheet as .xls OR .xlsx OR .csv file formats.** 
+
+* [Video Tutorial: Convert an Apple Numbers File to Microsoft Excel using Numbers on macOS](https://youtu.be/VXr6zBATvzE?t=10)
+
+Alternatively you can convert a .numbers file to .xlsx using [icloud.com](https://icloud.com) online for free (you need to have an apple account). 
+
+* [Instructions: Convert a .numbers file to ".xlsx" using icloud.com](https://support.apple.com/en-us/HT205391#numbersforicloud)
 
 <Tabs>
   <TabItem value="anz" label="ANZ" default>
@@ -36,7 +49,7 @@ import TabItem from "@theme/TabItem";
 <li>Select your desired account  </li>
 <li>Filter to the desired time period on the top of the page.  </li>
 <li>Click on the dropdown "Export as..." and select "CSV ..." </li>
-<li>If your bank is not listed here try searching the web for “How to export my transaction history in \[BANK NAME]”. Replacing bank name with the name of your banking provider e.g. ASB, Kiwi Bank and more. </li>
+<li>If your bank is not listed here try searching the web for “How to export my transaction history in \\\[BANK NAME]”. Replacing bank name with the name of your banking provider e.g. ASB, Kiwi Bank and more. </li>
 <li>Alternatively, contact your bank. </li>
 </ul>
   </TabItem>
