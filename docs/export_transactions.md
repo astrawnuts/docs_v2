@@ -19,7 +19,7 @@ Please only export to one of the following formats:
 
 If you need free software to work with these files then visit TODO. 
 
-### Step by Step Instructions for Various Different New Zealand Banks 
+### Instructions: Exporting bank transactions as .xlsx OR .csv using internet banking.
 
 <Tabs>
   <TabItem value="anz" label="ANZ" default>
@@ -43,7 +43,7 @@ If you need free software to work with these files then visit TODO.
 <li>Select your desired account  </li>
 <li>Filter to the desired time period on the top of the page.  </li>
 <li>Click on the dropdown "Export as..." and select "CSV ..." </li>
-<li>If your bank is not listed here try searching the web for “How to export my transaction history in \\\\\\[BANK NAME]”. Replacing bank name with the name of your banking provider e.g. ASB, Kiwi Bank and more. </li>
+<li>If your bank is not listed here try searching the web for “How to export my transaction history in \\\\\\\[BANK NAME]”. Replacing bank name with the name of your banking provider e.g. ASB, Kiwi Bank and more. </li>
 <li>Alternatively, contact your bank. </li>
 </ul>
   </TabItem>
