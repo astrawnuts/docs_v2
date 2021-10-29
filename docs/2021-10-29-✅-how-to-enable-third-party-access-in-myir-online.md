@@ -12,7 +12,7 @@ You first need to enable third-party access in your MyIR account otherwise we wo
 
 ## Steps By Step Instructions:
 
-1. Login to MyIR using https://www.ird.govt.nz/
+1. Login to MyIR using [https://www.ird.govt.nz/](https://www.ird.govt.nz/)
 2. On the top of the screen (top right if using desktop OR top left if using a mobile) click on "Manage my profile"
 3. Click on the tab "I want to..."
 4. Click on "Manage third party access"
