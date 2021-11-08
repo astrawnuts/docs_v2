@@ -71,3 +71,9 @@ h1 {
   position: relative /* Set to relativepositionposition*/
 }
 
+
+.navbar__logo {
+	flex: 0 0 auto;
+	height: 4rem;
+	margin-right: 0.5rem;
+}

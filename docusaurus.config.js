@@ -16,8 +16,8 @@ module.exports = {
     navbar: {
       title: "Knowledge Base",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "Tax Matterz Logo",
+        src: "img/tm-logo.svg",
       },
       items: [
         {
