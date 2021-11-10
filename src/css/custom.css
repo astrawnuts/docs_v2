@@ -23,14 +23,10 @@
   --ifm-color-primary-lighter: #353853;
   --ifm-color-primary-lightest: #3c405e;
 
-  
-
   --ifm-tabs-color-active: #1b74e9;
   --ifm-navbar-link-hover-color: #1b74e9;
 
   --ifm-link-color: #1b74e9;
-
-  
 }
 
 a:not(.pagination-nav__link) {
@@ -63,17 +59,24 @@ h1 {
 }
 
 .player-wrapper {
-  width: auto;  /*Reset width*/
+  width: auto; /*Reset width*/
   height: auto; /*Resetwidthheight Reset height*/
 }
 .react-player {
   padding-top: 56.25%; /* Percentage ratio for 16:9;Percentageratiofor16Percentageratiofor16Percentageratiofor16*/
-  position: relative /* Set to relativepositionposition*/
+  position: relative; /* Set to relativepositionposition*/
 }
 
-
 .navbar__logo {
-	flex: 0 0 auto;
-	height: 4rem;
-	margin-right: 0.5rem;
+  flex: 0 0 auto;
+  height: 4rem;
+  margin-right: 0.5rem;
+}
+
+.navbar {
+  height: 100%;
+}
+
+.navbar__brand {
+  margin-right: 0rem;
 }

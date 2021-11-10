@@ -14,7 +14,7 @@ module.exports = {
   projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Knowledge Base",
+      title: "",
       logo: {
         alt: "Tax Matterz Logo",
         src: "img/tm-logo.svg",
