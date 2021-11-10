@@ -80,3 +80,7 @@ h1 {
 .navbar__brand {
   margin-right: 0rem;
 }
+
+.navbar-sidebar__brand {
+	height: 100%;
+}
