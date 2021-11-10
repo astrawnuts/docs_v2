@@ -17,7 +17,7 @@ module.exports = {
       title: "",
       logo: {
         alt: "Tax Matterz Logo",
-        src: "img/tm-logo.svg",
+        src: "img/tm.logo.svg",
       },
       items: [
         {
