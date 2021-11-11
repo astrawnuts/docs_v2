@@ -101,13 +101,13 @@ module.exports = {
           editUrl: "https://github.com/astrawnuts/docs_v2/tree/master/",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve("./src/css/custom.scss"),
         },
       },
     ],
   ],
   // ...
-  plugins: [
+  plugins: [ 'docusaurus-plugin-sass', 
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {

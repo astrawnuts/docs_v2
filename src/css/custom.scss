@@ -77,10 +77,13 @@ h1 {
 
 .navbar {
   height: var(--NAVBAR-HEIGHT);
+}
+
+.navbar, .navbar-sidebar__brand {
   background-color: var(--ifm-color-primary);
 }
 
-.navbar-sidebar__brand {
+html[data-theme="dark"] .navbar, html[data-theme="dark"] .navbar-sidebar__brand {
   background-color: var(--ifm-color-primary);
 }
 
@@ -99,3 +102,5 @@ h1 {
 .navbar-sidebar__brand {
 	height: var(--NAVBAR-HEIGHT);
 }
+
+
