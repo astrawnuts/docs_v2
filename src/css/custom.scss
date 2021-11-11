@@ -75,8 +75,17 @@ h1 {
   background-color: var(--ifm-color-primary);
 }
 
+// white navbar toggle button
+.navbar__toggle {
+  &.clean-btn {
+    color: white;
+  }
+}
+
+
 // How to handle dark mode components
 html[data-theme="dark"] {
+
   .navbar,
   .navbar-sidebar__brand {
     background-color: var(--ifm-color-primary);
@@ -89,7 +98,7 @@ html[data-theme="dark"] {
 
   .docusaurus-highlight-code-line {
     background-color: rgba(0, 0, 0, 0.3);
-  }  
+  }
 
   .menu__link--active {
     color: white;
