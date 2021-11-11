@@ -42,31 +42,22 @@ a:not(.pagination-nav__link) {
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme="dark"] :not(.pagination-nav__link) {
-  --ifm-color-primary: white !important;
-  --ifm-menu-color-background-active: #1b74e9;
-}
-
-html[data-theme="dark"] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-/* The side bar - active selected topic item */
-html[data-theme="dark"] .menu__link--active {
-  color: white;
-}
-
 h1 {
   font-size: 2.5rem;
 }
 
 .player-wrapper {
-  width: auto; /*Reset width*/
-  height: auto; /*Resetwidthheight Reset height*/
+  width: auto;
+  /*Reset width*/
+  height: auto;
+  /*Resetwidthheight Reset height*/
 }
+
 .react-player {
-  padding-top: 56.25%; /* Percentage ratio for 16:9;Percentageratiofor16Percentageratiofor16Percentageratiofor16*/
-  position: relative; /* Set to relativepositionposition*/
+  padding-top: 56.25%;
+  /* Percentage ratio for 16:9;Percentageratiofor16Percentageratiofor16Percentageratiofor16*/
+  position: relative;
+  /* Set to relativepositionposition*/
 }
 
 .navbar__logo {
@@ -79,12 +70,30 @@ h1 {
   height: var(--NAVBAR-HEIGHT);
 }
 
-.navbar, .navbar-sidebar__brand {
+.navbar,
+.navbar-sidebar__brand {
   background-color: var(--ifm-color-primary);
 }
 
-html[data-theme="dark"] .navbar, html[data-theme="dark"] .navbar-sidebar__brand {
-  background-color: var(--ifm-color-primary);
+// How to handle dark mode components
+html[data-theme="dark"] {
+  .navbar,
+  .navbar-sidebar__brand {
+    background-color: var(--ifm-color-primary);
+  }
+
+  :not(.pagination-nav__link) {
+    --ifm-color-primary: white !important;
+    --ifm-menu-color-background-active: #1b74e9;
+  }
+
+  .docusaurus-highlight-code-line {
+    background-color: rgba(0, 0, 0, 0.3);
+  }  
+
+  .menu__link--active {
+    color: white;
+  }
 }
 
 /* .navbar a:not(.navbar__link--active):not(.navbar-sidebar) {
@@ -100,7 +109,5 @@ html[data-theme="dark"] .navbar, html[data-theme="dark"] .navbar-sidebar__brand 
 }
 
 .navbar-sidebar__brand {
-	height: var(--NAVBAR-HEIGHT);
+  height: var(--NAVBAR-HEIGHT);
 }
-
-
