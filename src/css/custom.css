@@ -27,6 +27,8 @@
   --ifm-navbar-link-hover-color: #1b74e9;
 
   --ifm-link-color: #1b74e9;
+
+  --NAVBAR-HEIGHT: 5rem;
 }
 
 a:not(.pagination-nav__link) {
@@ -74,7 +76,7 @@ h1 {
 }
 
 .navbar {
-  height: 100%;
+  height: var(--NAVBAR-HEIGHT);
 }
 
 .navbar__brand {
@@ -82,5 +84,5 @@ h1 {
 }
 
 .navbar-sidebar__brand {
-	height: 100%;
+	height: var(--NAVBAR-HEIGHT);
 }
