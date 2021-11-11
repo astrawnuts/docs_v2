@@ -77,6 +77,19 @@ h1 {
 
 .navbar {
   height: var(--NAVBAR-HEIGHT);
+  background-color: var(--ifm-color-primary);
+}
+
+.navbar-sidebar__brand {
+  background-color: var(--ifm-color-primary);
+}
+
+/* .navbar a:not(.navbar__link--active):not(.navbar-sidebar) {
+  color: white;
+} */
+
+.navbar__link {
+  color: #fff;
 }
 
 .navbar__brand {

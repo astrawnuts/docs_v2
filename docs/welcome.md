@@ -15,40 +15,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 Spend some time and find answers to frequently asked questions. We have designed this Knowledge Base as a place to learn. Let us know if there's is a question you'd like to see here and we may put it up.
 :::
 
-<!-- import Test from "./test"; -->
-
-Let's discover **more about Tax Matterz - accounting & Taxation services**.
-
-
-### Frequently Asked Questions About Us 🙋 
-These are the questions people often ask us about our business. If you have a general question such as how to pay your taxes, what self employed means etc. then you need to browse our site using the navigation bar to find the answer.
-
-<details>  
-<summary>I want to learn more about Tax Matterz - Accounting & Taxation Services | Auckland, NZ</summary>  
-<div>This is the detailed content</div>        
-</details>
-
-<details>  
-<summary>What services do you offer?</summary>  
-<div>This is the detailed content</div>        
-</details>
-
-<details>  
-<summary>Which parts of New Zealand do you offer your services?</summary>  
-<div>This is the detailed content</div>        
-</details>
-
-These should be in the side bar as their own articles
-<!-- <details>  
-<summary>What does self employed/sole trader mean?</summary>  
-<div>This is the detailed content</div>        
-</details>
-
-<!-- <details>  
-<summary>What is a registered company?</summary>  
-<div>This is the detailed content</div>        
-</details> -->
-
 
 ### Helpful Links. 🔗
 When you work with us and utilize our services you will often come across a variety of links that we use to help clients get their work done. Here is a breakdown of what some of those links mean and how they can help you to get your accounting & taxation work done.
@@ -68,36 +34,3 @@ When you work with us and utilize our services you will often come across a vari
 | ------ | ----------- |
 | <h1>🪄</h1> | Represents dynamic content meaning that the page where this icon appears is updated with new content in realtime. |
 | <h1>🚧</h1> | This means that a page is still a work in progress, it could contain incomplete information or maybe a placeholder for a future page. |
-
-
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-<h1>Hello World</h1>
-
-<Test />
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
