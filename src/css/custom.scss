@@ -5,6 +5,7 @@
  * work well for content-centric websites.
  */
 
+//  you can also override default CSS classes using this file by using inspect tool in firefox or chrome to know which classes to override.
 /* You can override the default Infima variables here. */
 :root {
   /* --ifm-color-primary: #25c2a0;
@@ -123,9 +124,22 @@ html[data-theme="dark"] {
 }
 
 .navbar__brand {
-  margin-right: 0rem;
+  margin-right: 1rem;
 }
 
 .navbar-sidebar__brand {
   height: var(--NAVBAR-HEIGHT);
+}
+
+.navbar .navbar__link--active::after {
+	background: white;
+	content: "";
+	display: flex;
+	height: 5px;
+	margin-left: -20px;
+	margin-right: -20px;
+	// margin-top: 0.1rem;
+	position: relative;
+	top: 1.5rem;
+	width: calc(100% + 40px);
 }
