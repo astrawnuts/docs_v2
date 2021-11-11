@@ -31,6 +31,8 @@
   --NAVBAR-HEIGHT: 5rem;
 }
 
+$primary: #2e3148;
+
 a:not(.pagination-nav__link) {
   --ifm-link-color: #1b74e9;
 }
@@ -103,6 +105,13 @@ html[data-theme="dark"] {
   .menu__link--active {
     color: white;
   }
+
+  // even in dark mode have a dark navbar background
+  .navbar,
+  .navbar-sidebar__brand {
+    background-color: $primary;
+  }
+
 }
 
 /* .navbar a:not(.navbar__link--active):not(.navbar-sidebar) {
