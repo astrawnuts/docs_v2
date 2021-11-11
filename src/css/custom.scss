@@ -131,15 +131,24 @@ html[data-theme="dark"] {
   height: var(--NAVBAR-HEIGHT);
 }
 
-.navbar .navbar__link--active::after {
-	background: white;
-	content: "";
-	display: flex;
-	height: 5px;
-	margin-left: -20px;
-	margin-right: -20px;
-	// margin-top: 0.1rem;
-	position: relative;
-	top: 1.5rem;
-	width: calc(100% + 40px);
+// Uses a pseudo element => inspired by reactnative.dev
+.navbar {
+  .navbar__link--active {
+    color: #47c2e1;
+    
+    &::after {
+      background: #47c2e1;
+      content: "";
+      display: flex;
+      height: 5px;
+      margin-left: -20px;
+      margin-right: -20px;
+      // margin-top: 0.1rem;
+      position: relative;
+      top: 1.5rem;
+      width: calc(100% + 40px);
+
+    }
+  }
+
 }
