@@ -77,7 +77,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Tax Matterz © ${new Date().getFullYear()}. Knowledge Base Made With Love. Talk With Us For Your Next Site.`,
     },
     prism: {
       theme: lightCodeTheme,

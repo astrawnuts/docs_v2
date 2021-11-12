@@ -132,7 +132,7 @@ html[data-theme="dark"] {
   height: var(--NAVBAR-HEIGHT);
 }
 
-// Uses a pseudo element => inspired by reactnative.dev
+// Uses a pseudo element => inspired by website reactnative.dev
 .navbar {
   .navbar__link--active {
     color: #47c2e1;
@@ -152,4 +152,9 @@ html[data-theme="dark"] {
     }
   }
 
+}
+
+// footer 
+.footer {
+  background-color: $primary;
 }
