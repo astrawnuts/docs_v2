@@ -114,6 +114,8 @@ html[data-theme="dark"] {
     background-color: $primary;
   }
 
+  --ifm-background-color: #1a1c28;
+
 }
 
 /* .navbar a:not(.navbar__link--active):not(.navbar-sidebar) {
@@ -158,3 +160,4 @@ html[data-theme="dark"] {
 .footer {
   background-color: $primary;
 }
+
