@@ -34,6 +34,7 @@
 }
 
 $primary: #2e3148;
+$dark-mode-background: #1a1c28;
 
 a:not(.pagination-nav__link) {
   --ifm-link-color: #1b74e9;
@@ -114,7 +115,15 @@ html[data-theme="dark"] {
     background-color: $primary;
   }
 
-  --ifm-background-color: #1a1c28;
+  // background colour of the body section when in dark mode
+  --ifm-background-color: $dark-mode-background;
+  --ifm-background-surface-color: $dark-mode-background;
+
+  
+  --aa-input-background-color-rgb: 26, 28, 40;
+  --aa-background-color-rgb: 26, 28, 40;
+  --aa-selected-color-rgb: 146,138,255;
+  --aa-selected-color-alpha: 0.25;
 
 }
 
@@ -138,7 +147,7 @@ html[data-theme="dark"] {
 .navbar {
   .navbar__link--active {
     color: #47c2e1;
-    
+
     &::after {
       background: #47c2e1;
       content: "";
@@ -160,4 +169,3 @@ html[data-theme="dark"] {
 .footer {
   background-color: $primary;
 }
-

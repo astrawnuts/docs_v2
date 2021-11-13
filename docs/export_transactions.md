@@ -4,28 +4,25 @@ sidebar_label: How Do I Export My Bank Transactions? 📁
 slug: /exporting-your-bank-transactions
 date: 2021-09-15T14:21:24.027Z
 ---
+
 # How Do I Export My Bank Transactions? 📁
 
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-### File formats that we use (.xls, .xlsx preferred) or .csv formats.
-
-Please only export to one of the following formats:
-
-1. .xls 
-2. .xlsx
-3. .csv
-
-If you need free software to work with these files then visit TODO. 
-
 ### Instructions: Exporting bank transactions as .xlsx OR .csv using internet banking.
 
 <Tabs>
   <TabItem value="anz" label="ANZ" default>
-     <strong>ANZ</strong> <br/>
+    <strong>ANZ</strong> <br/>
+    <ol>
+      <li>Visit <a href="https://anz.co.nz">ANZ</a> and sign in to your internet banking.</li>
+      <li>Select the account you want to export transactions for.</li>
+      <li>Above your transactions click on the export button. Choose a start and end date for the transaction export. </li>
+      <li>Under File Format click on Excel.</li>
+      <li>Click on the export button which should download an Excel file to your computer.</li>
+    </ol>
      <p>For additional help with exporting your bank transactions as a excel or csv file:</p>
-     
      <ul>
         <li>
         <a href="https://help.anz.co.nz/app/answers/detail/a_id/767/kw/export%20statement%20as%20csv%20file/related/1">https://help.anz.co.nz/app/answers/detail/a_id/767/kw/export%20statement%20as%20csv%20file/related/1</a>
@@ -78,12 +75,25 @@ If you need free software to work with these files then visit TODO.
   </TabItem>
   </Tabs>
 
+<!--
+### File formats that we use (.xls, .xlsx preferred) or .csv formats.
+
+Please only export to one of the following formats:
+
+1. .xls
+2. .xlsx
+3. .csv
+
+If you need free software to work with these files then visit TODO.
+
+
+
 ### What if i'm using Apple Numbers?
 
-If you are using Apple Numbers then you must either **export the spreadsheet as .xls OR .xlsx OR .csv file formats.** 
+If you are using Apple Numbers then you must either **export the spreadsheet as .xls OR .xlsx OR .csv file formats.**
 
 * [Video Tutorial: Convert an Apple Numbers File to Microsoft Excel using Numbers on macOS](https://youtu.be/VXr6zBATvzE?t=10)
 
-Alternatively you can convert a .numbers file to .xlsx using [icloud.com](https://icloud.com) online for free (you need to have an apple account). 
+Alternatively you can convert a .numbers file to .xlsx using [icloud.com](https://icloud.com) online for free (you need to have an apple account).
 
-* [Instructions: Convert a .numbers file to ".xlsx" using icloud.com](https://support.apple.com/en-us/HT205391#numbersforicloud)
+* [Instructions: Convert a .numbers file to ".xlsx" using icloud.com](https://support.apple.com/en-us/HT205391#numbersforicloud) -->
