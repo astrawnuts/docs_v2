@@ -22,13 +22,8 @@ import TabItem from "@theme/TabItem";
       <li>Under File Format click on Excel.</li>
       <li>Click on the export button which should download an Excel file to your computer.</li>
     </ol>
-     <p>For additional help with exporting your bank transactions as a excel or csv file:</p>
-     <ul>
-        <li>
-        <a href="https://help.anz.co.nz/app/answers/detail/a_id/767/kw/export%20statement%20as%20csv%20file/related/1">https://help.anz.co.nz/app/answers/detail/a_id/767/kw/export%20statement%20as%20csv%20file/related/1</a>
-        </li>
-     </ul>
-         
+     <p>For additional help with exporting your bank transactions as a excel or csv file <a href="https://help.anz.co.nz/app/answers/detail/a_id/767/~/exporting-transaction-history">vist ANZ's help and support page.</a></p>
+  
   </TabItem>
   <TabItem value="asb" label="ASB">
        <strong>ASB</strong> <br/>
