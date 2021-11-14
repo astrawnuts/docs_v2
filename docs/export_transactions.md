@@ -11,10 +11,11 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
 ### Instructions: Exporting bank transactions as .xlsx OR .csv using internet banking.
+Follow the steps listed below for your bank to export transactions as an excel or csv file.
 
 <Tabs>
   <TabItem value="anz" label="ANZ" default>
-    <strong>ANZ</strong> <br/>
+    <strong><h2>ANZ</h2></strong> <br/>
     <ol>
       <li>Visit <a href="https://anz.co.nz">ANZ</a> and sign in to your internet banking.</li>
       <li>Select the account you want to export transactions for.</li>
@@ -26,10 +27,11 @@ import TabItem from "@theme/TabItem";
   
   </TabItem>
   <TabItem value="asb" label="ASB">
-       <strong>ASB</strong> <br/>
-       For additional help with exporting your bank transactions as a excel or csv file:
-<ul>
-<li>For ASB Bank you will need to use the search and export feature to export your transactions as CSV or excel formats. </li>
+<strong><h2>ASB</h2></strong> <br/>
+<h2>For additional help with exporting your bank transactions as a excel or csv file:</h2>
+<p>For ASB Bank you will need to use the search and export feature to export your transactions as CSV or excel formats.</p>
+
+<ol>
 <li>Login to your internet banking.  </li>
 <li>You must use the desktop version of ASB internet banking. If you are signed into on a smartphone please switch to the desktop version using the "switch to the desktop version" link on the home page.  </li>
 <li>Select your desired account  </li>
@@ -37,10 +39,18 @@ import TabItem from "@theme/TabItem";
 <li>Click on the dropdown "Export as..." and select "CSV ..." </li>
 <li>If your bank is not listed here try searching the web for “How to export my transaction history in \\\\\\\[BANK NAME]”. Replacing bank name with the name of your banking provider e.g. ASB, Kiwi Bank and more. </li>
 <li>Alternatively, contact your bank. </li>
-</ul>
+</ol>
+
+    Head to ASB's website and log into your FastNet internet banking.
+    Click on the account you want to view statements for
+    Above your transactions you'll see a date range. Choose your dates and then click view on screen.
+    Hit the Print button (just above your transactions on the right).
+    In the preview mode, hit the Print button on the top right.
+    Print options will pop up. At the bottom left will be a dropdown. Hit save as PDF, choose the destination and click save.
+
   </TabItem>
 <TabItem value="bnz" label="BNZ">
-    <strong>BNZ</strong> <br/>
+    <strong><h2>BNZ</h2></strong> <br/>
      <p>For additional help with exporting your bank transactions as a excel or csv file:</p>
          <ul>
         <li>
@@ -49,7 +59,7 @@ import TabItem from "@theme/TabItem";
     </ul>
   </TabItem>
   <TabItem value="kiwibank" label="Kiwibank">
-        <strong>Kiwibank</strong> <br/>
+        <strong><h2>Kiwibank</h2></strong> <br/>
      <p>For additional help with exporting your bank transactions as a excel or csv file:</p>
          <ul>
         <li>
@@ -58,7 +68,7 @@ import TabItem from "@theme/TabItem";
       </ul>
     </TabItem>
 <TabItem value="westpac" label="Westpac Bank">
-   <strong>Westpac Bank</strong> <br/>
+   <strong><h2>Westpac Bank</h2></strong> <br/>
      <p>For additional help with exporting your bank transactions as a excel or csv file:</p>
          <ul>
         <li>
