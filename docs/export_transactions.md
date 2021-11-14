@@ -77,7 +77,7 @@ For additional help with exporting your bank transactions as a excel or csv file
 <li>A .csv file should be downloaded to your computer with your transactions history for the desired period you selected earlier.</li>
 </ol>
   
-For additional help with exporting your bank transactions as a excel or csv file visit <a href="https://www.westpac.co.nz/branch-mobile-online/online-banking/how-to/download-transactions-and-statements/#desktop">Westpac's help and support page.</a>.
+For additional help with exporting your bank transactions as a excel or csv file visit <a href="https://www.westpac.co.nz/branch-mobile-online/online-banking/how-to/download-transactions-and-statements/#desktop">Westpac's help and support page.</a>
   </TabItem>
   </Tabs>
 
