@@ -6,4 +6,4 @@ date: 2021-09-15T14:27:22.721Z
 ---
 
 
-# What Does Sole Trader or Self Employed Mean? 👷‍♂️
+# What Does Sole Trader or Self Employed Mean? 👷‍♂️ 🚧

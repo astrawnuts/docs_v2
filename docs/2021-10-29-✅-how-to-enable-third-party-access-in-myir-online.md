@@ -1,10 +1,10 @@
 ---
-title: ✅ How to enable Third Party Access in MyIR Online
-sidebar_label: ✅ How to enable Third Party Access in MyIR Online
+title: How to enable Third Party Access in MyIR Online ✅ 
+sidebar_label: How to enable Third Party Access in MyIR Online ✅ 
 slug: enable-third-party-access-in-my-ir
 date: 2021-10-29T05:57:02.379Z
 ---
-# Enabling third party access in My IR online portal.
+# Enabling third party access in MyIR portal. ✅
 
 Your account may have third party access disabled. 
 
