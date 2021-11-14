@@ -13,7 +13,7 @@ Write a small description explaining what each transaction is for in the first b
 
 ![Docusaurus](/img/decode.png)
 
-<p align = "center">
+<p align="center">
 Fig 1: Example of decoded bank transactions.
 </p>
 
