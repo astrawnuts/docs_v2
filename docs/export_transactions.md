@@ -10,56 +10,58 @@ date: 2021-09-15T14:21:24.027Z
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-### Instructions: Exporting bank transactions as .xlsx OR .csv using internet banking.
-Follow the steps listed below for your bank to export transactions as an excel or csv file.
+:::info
+Follow the steps listed below for your bank to export transactions as an excel (.xlsx, .xls) or .csv file. In most cases it is better to use a laptop/desktop computer to perform these steps rather than using a mobile application.
+:::
 
 <Tabs>
   <TabItem value="anz" label="ANZ" default>
-    <strong><h2>ANZ</h2></strong> <br/>
+    <h2>ANZ</h2> 
     <ol>
       <li>Visit <a href="https://anz.co.nz">ANZ</a> and sign in to your internet banking.</li>
       <li>Select the account you want to export transactions for.</li>
       <li>Above your transactions click on the export button. Choose a start and end date for the transaction export. </li>
       <li>Under File Format click on Excel.</li>
-      <li>Click on the export button which should download an Excel file to your computer.</li>
+      <li>Click on the export button which should download an Excel file with your transactions to your computer.</li>
     </ol>
      <p>For additional help with exporting your bank transactions as a excel or csv file <a href="https://help.anz.co.nz/app/answers/detail/a_id/767/~/exporting-transaction-history">vist ANZ's help and support page.</a></p>
   
   </TabItem>
   <TabItem value="asb" label="ASB">
-<strong><h2>ASB</h2></strong> <br/>
-<h2>For additional help with exporting your bank transactions as a excel or csv file:</h2>
-<p>For ASB Bank you will need to use the search and export feature to export your transactions as CSV or excel formats.</p>
-
+<h2>ASB</h2>
 <ol>
-<li>Login to your internet banking.  </li>
-<li>You must use the desktop version of ASB internet banking. If you are signed into on a smartphone please switch to the desktop version using the "switch to the desktop version" link on the home page.  </li>
-<li>Select your desired account  </li>
-<li>Filter to the desired time period on the top of the page.  </li>
+<li>Visit <a href="https://asb.co.nz">ASB</a> and sign in to your internet banking.</li>
+<li>Select the account you want to export transactions for.</li>
+ <li>Above your transactions choose a start and end date for the transaction export and click on view on screen. </li>
 <li>Click on the dropdown "Export as..." and select "CSV ..." </li>
-<li>If your bank is not listed here try searching the web for “How to export my transaction history in \\\\\\\[BANK NAME]”. Replacing bank name with the name of your banking provider e.g. ASB, Kiwi Bank and more. </li>
-<li>Alternatively, contact your bank. </li>
+<li>A .csv file should be downloaded to your computer with your transactions history for the desired period you selected earlier.</li>
 </ol>
-
-    Head to ASB's website and log into your FastNet internet banking.
-    Click on the account you want to view statements for
-    Above your transactions you'll see a date range. Choose your dates and then click view on screen.
-    Hit the Print button (just above your transactions on the right).
-    In the preview mode, hit the Print button on the top right.
-    Print options will pop up. At the bottom left will be a dropdown. Hit save as PDF, choose the destination and click save.
 
   </TabItem>
 <TabItem value="bnz" label="BNZ">
-    <strong><h2>BNZ</h2></strong> <br/>
+    <h2>BNZ</h2>
      <p>For additional help with exporting your bank transactions as a excel or csv file:</p>
          <ul>
         <li>
     <a href="https://www.bnz.co.nz/support/internet-banking/transactions-and-transfers/exporting-transactions">https://www.bnz.co.nz/support/internet-banking/transactions-and-transfers/exporting-transactions</a>
     </li>
     </ul>
+
+    
+    Head to BNZ's website and log into your internet banking.
+    Go to the Menu (top left of screen)
+    Choose Documents (4th down on menu)
+    Select Statements and use drop down arrow on right hand side
+    Click on the account you want the statements for
+    Click on the statement date you would like to download and PDF statement will open in another tab
+    Right click and choose Save as and save PDF to your computer
+
+
+
+
   </TabItem>
   <TabItem value="kiwibank" label="Kiwibank">
-        <strong><h2>Kiwibank</h2></strong> <br/>
+        <h2>Kiwibank</h2>
      <p>For additional help with exporting your bank transactions as a excel or csv file:</p>
          <ul>
         <li>
@@ -67,8 +69,8 @@ Follow the steps listed below for your bank to export transactions as an excel o
       </li>
       </ul>
     </TabItem>
-<TabItem value="westpac" label="Westpac Bank">
-   <strong><h2>Westpac Bank</h2></strong> <br/>
+<TabItem value="westpac" label="Westpac">
+   <h2>Westpac Bank</h2>
      <p>For additional help with exporting your bank transactions as a excel or csv file:</p>
          <ul>
         <li>
