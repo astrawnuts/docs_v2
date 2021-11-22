@@ -11,7 +11,13 @@ Decoding means that you should explain what each bank transaction is meant for.
 Please decode your bank transactions whenever you are exporting them into an excel spreadsheet.
 Write a small description explaining what each transaction is for in the first blank column in the far right of the spreadsheet. Example shown below.
 
-![Docusaurus](/img/decode.png)
+### I'm using a Mac Computer/Apple Numbers
+If you are using macOS and Apple Numbers then please make sure that the file you send us is saved as an excel file (.xlsx or .xls). We are unable to open .numbers file formats. 
+
+### I'm using Windows (Vista, 7, 8, 10, 11)
+If you are using Microsoft Windows and 
+
+![How To Decode Your Transactions](/img/decode.png)
 
 <p align="center">
 Fig 1: Example of decoded bank transactions.
