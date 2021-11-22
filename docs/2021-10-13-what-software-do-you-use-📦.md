@@ -1,12 +1,18 @@
 ---
-title: What software do you use? 📦
-sidebar_label: What Software Do You Use? 📦
+title: 📦 What software do you use? 
+sidebar_label: 📦 What Software Do You Use? 
 slug: what-software-do-you-use
 date: 2021-10-13T05:13:59.411Z
 ---
-Here is a list of free software that you may find useful in doing your taxes, or preforming other tasks.
 
-All software listed below works on Windows, macOS, Linux (may need W.I.N.E or PlayOnLinux), Android, iOS
+# <div class="emoji">📦</div> additional Software 
+
+<!-- 
+import Fontawesome from "./components/Fontawesome.js";
+import { faApple } from "@fortawesome/free-brands-svg-icons"
+import { faLaptop } from '@fortawesome/free-solid-svg-icons' -->
+
+Here is a list of free software that you may find useful in doing your taxes, or preforming other tasks. All software listed below works on Windows, macOS, Linux (may need W.I.N.E or PlayOnLinux), Android, iOS
 
 | Program    |  Description   |   Link  |
 | --- | --- | --- |

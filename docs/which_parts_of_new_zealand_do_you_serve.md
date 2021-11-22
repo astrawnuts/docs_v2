@@ -1,12 +1,12 @@
 ---
-title: Which Parts of New Zealand do you Serve? 🌏
-sidebar_label: Which Parts Of New Zealand Do You Serve? 🌏
+title: Which Parts of New Zealand do you Serve? 
+sidebar_label: 🌏 Which Parts Of New Zealand Do You Serve? 
 slug: /learn-more-about-the-places-where-we-offer-our-services
 date: 2021-09-15T14:31:02.775Z
 ---
 
 
-# Which Parts of New Zealand do you Serve? 🌏
+# <div class="emoji">🌏</div> Which Parts of New Zealand do you Serve? 
 
 Despite our office being located in Auckland we have hundreds of customers all over New Zealand. Our Materons as we like to call them are from the tip of North Island all the way down to the bottom of South Island.
 

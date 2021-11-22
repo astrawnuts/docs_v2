@@ -163,6 +163,10 @@ html[data-theme="dark"] {
     }
   }
 
+  svg {
+    color: white !important;
+  }
+
 }
 
 // footer 
@@ -172,4 +176,14 @@ html[data-theme="dark"] {
 
 h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
+}
+
+//this takes care of the fixed navbar on the top that is larger than standard docusaurus
+html {
+  scroll-padding-top: 2rem;
+}
+
+.emoji {
+  font-weight: normal;
+  display: inline-block;
 }

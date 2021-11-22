@@ -1,10 +1,15 @@
 ---
-title: How to enable Third Party Access in MyIR Online ✅ 
-sidebar_label: How to enable Third Party Access in MyIR Online ✅ 
+title: 🤝 How to enable Third Party Access in MyIR Online 
+sidebar_label: 🤝 How to enable Third Party Access in MyIR Online  
 slug: enable-third-party-access-in-my-ir
 date: 2021-10-29T05:57:02.379Z
 ---
-# Enabling third party access in MyIR portal. ✅
+# <div class="emoji">🤝</div> Enable third party access in MyIR. 
+
+
+import Fontawesome from "./components/Fontawesome.js";
+import { faHandshake } from '@fortawesome/free-solid-svg-icons';
+
 
 Your account may have third party access disabled. 
 

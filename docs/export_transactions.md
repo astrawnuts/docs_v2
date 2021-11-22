@@ -1,11 +1,11 @@
 ---
-title: How Do I Export My Bank Transactions? 📁
-sidebar_label: How Do I Export My Bank Transactions? 📁
+title: 📁 How Do I Export My Bank Transactions? 
+sidebar_label: 📁 How Do I Export My Bank Transactions? 
 slug: /exporting-your-bank-transactions
 date: 2021-09-15T14:21:24.027Z
 ---
 
-# How Do I Export My Bank Transactions? 📁
+# <div class="emoji">📁</div> How Do I Export My Bank Transactions? 
 
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
@@ -81,25 +81,3 @@ For additional help with exporting your bank transactions as a excel or csv file
   </TabItem>
   </Tabs>
 
-<!--
-### File formats that we use (.xls, .xlsx preferred) or .csv formats.
-
-Please only export to one of the following formats:
-
-1. .xls
-2. .xlsx
-3. .csv
-
-If you need free software to work with these files then visit TODO.
-
-
-
-### What if i'm using Apple Numbers?
-
-If you are using Apple Numbers then you must either **export the spreadsheet as .xls OR .xlsx OR .csv file formats.**
-
-* [Video Tutorial: Convert an Apple Numbers File to Microsoft Excel using Numbers on macOS](https://youtu.be/VXr6zBATvzE?t=10)
-
-Alternatively you can convert a .numbers file to .xlsx using [icloud.com](https://icloud.com) online for free (you need to have an apple account).
-
-* [Instructions: Convert a .numbers file to ".xlsx" using icloud.com](https://support.apple.com/en-us/HT205391#numbersforicloud) -->
