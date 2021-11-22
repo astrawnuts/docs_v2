@@ -87,9 +87,33 @@ h1 {
   }
 }
 
+.table-of-contents__link {
+  color: #b9c8d0;
+
+  //Side bar table of contents active link color
+  &--active {
+    color: #1a1c28;
+    border-left: 4px solid #1a1c28;
+    font-weight: 500;
+    margin-left: -16px;
+    padding-left: 12px;
+  }
+
+}
+
 
 // How to handle dark mode components
 html[data-theme="dark"] {
+
+  .table-of-contents__link {
+    color: #b9c8d0;
+
+    //Side bar table of contents active link color
+    &--active {
+      color: white;
+    }
+
+  }
 
   .navbar,
   .navbar-sidebar__brand {
@@ -119,10 +143,16 @@ html[data-theme="dark"] {
   --ifm-background-color: #1a1c28;
   --ifm-background-surface-color: #1a1c28;
 
-  
-  --aa-input-background-color-rgb: 26, 28, 40;
-  --aa-background-color-rgb: 26, 28, 40;
-  --aa-selected-color-rgb: 146,138,255;
+
+  --aa-input-background-color-rgb: 26,
+  28,
+  40;
+  --aa-background-color-rgb: 26,
+  28,
+  40;
+  --aa-selected-color-rgb: 146,
+  138,
+  255;
   --aa-selected-color-alpha: 0.25;
 
 }
@@ -174,7 +204,12 @@ html[data-theme="dark"] {
   background-color: $primary;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-transform: capitalize;
 }
 
