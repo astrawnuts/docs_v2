@@ -107,9 +107,8 @@ module.exports = {
     ],
   ],
   // ...
-  plugins: [ 'docusaurus-plugin-sass', 
-
-
+  plugins: [ 'docusaurus-plugin-sass',
+  [ 
       '@docusaurus/plugin-pwa',
       {
         debug: true,
@@ -136,8 +135,7 @@ module.exports = {
           },
         ],
       },
-
-
+      ],
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
