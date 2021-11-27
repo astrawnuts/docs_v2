@@ -117,6 +117,7 @@ module.exports = {
           'standalone',
           'queryString',
         ],
+        swCustom: path.resolve(__dirname, 'src/sw.js'),
         pwaHead: [
           {
             tagName: 'link',
