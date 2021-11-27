@@ -13,7 +13,7 @@ Write a small description explaining what each transaction is for in the first b
 
 [Additional steps when using macOS or Apple Numbers.](decoding-your-bank-transactions#im-using-an-apple-macos-computerapple-numbers)
 
-### I'm using Windows (XP, Vista, 7, 8, 8.1, 10, 11)
+### <div class="emoji">🖥️</div> I'm using Windows (XP, Vista, 7, 8, 8.1, 10, 11)
 * If you are using Microsoft Windows and Microsoft Office you don't need to take any extra steps.
 * If you need some free software to open .csv or (.xlsx, .xls) files then you can see our page on [Free Software - Excel Online, Google Sheets, Libre Office or Open Office. ](2021-10-13-what-software-do-you-use-📦.md)
 
@@ -27,11 +27,11 @@ For example for an income transaction which you have received money you can simp
 For rent, insurance, power, petrol you can write rent, insurance, power, or petrol respectively.
 Another example is if the transaction is for personal purposes then simply write personal.
 
-### I'm using an Apple macOS Computer/Apple Numbers
+### <div class="emoji">🍎</div> I'm using an Apple macOS Computer/Apple Numbers
 * If you are using macOS and Apple Numbers then please make sure that the file you send to us is saved as an excel or csv file format (.xlsx, .xls or .csv). We are unable to open .numbers file formats. 
 * You can use [Free Software Excel Online, Google Sheets, Libre Office or Open Office ](2021-10-13-what-software-do-you-use-📦.md) to export your transactions in a format that we can use.
 
-### Additional Resources for macOS Computers/Apple Numbers 
+### <div class="emoji">🍏</div> Additional Resources for macOS Computers/Apple Numbers 
 * [Video Tutorial: Convert an Apple Numbers File to Microsoft Excel using Numbers on macOS](https://youtu.be/VXr6zBATvzE?t=10)
 * Alternatively you can convert a .numbers file to .xlsx using [icloud.com](https://icloud.com) online for free (you need to have an apple account).
 * [Instructions: Convert a .numbers file to ".xlsx" using icloud.com](https://support.apple.com/en-us/HT205391#numbersforicloud) 
