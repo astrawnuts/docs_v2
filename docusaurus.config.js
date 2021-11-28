@@ -48,7 +48,7 @@ module.exports = {
           ],
         },
         {
-          title: "Community",
+          title: "Tax Matterz",
           items: [
             {
               label: "Stack Overflow",
