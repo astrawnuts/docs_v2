@@ -1,0 +1,19 @@
+{
+    "name": "Help Desk",
+    "short_name": "Help Desk",
+    "icons": [
+        {
+            "src": "/img/icons/generator/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/icons/generator/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#c00000",
+    "background_color": "#c00000",
+    "display": "standalone"
+}
