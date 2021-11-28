@@ -122,19 +122,56 @@ module.exports = {
         pwaHead: [
           {
             tagName: 'link',
-            rel: 'icon',
-            href: '/img/docusaurus.png',
-          },
-          {
+            rel: "apple-touch-icon",
+            sizes: "180x180",
+            href: "/img/icons/generator/apple-touch-icon.png",
+        },
+        {
             tagName: 'link',
-            rel: 'manifest',
-            href: '/manifest.json', // your PWA manifest
-          },
-          {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: 'rgb(26, 28, 40)',
-          },
+            rel: "icon",
+            type: "image/png" ,
+            sizes: "32x32" ,
+            href: "/img/icons/generator/favicon-32x32.png",
+        },
+        {
+            tagName: 'link',
+            rel: "icon",
+            type: "image/png" ,
+            sizes: "16x16" ,
+            href: "/img/icons/generator/favicon-16x16.png",
+        },
+        {
+            tagName: 'link',
+            rel: "manifest",
+            href: "/img/icons/generator/site.webmanifest"
+        },
+        {
+            tagName: 'link',
+            rel: "mask-icon",
+            href: "/img/icons/generator/safari-pinned-tab.svg",
+            color: "#c00000"
+        
+        },
+        {
+            tagName: 'link',
+            rel="shortcut icon",
+            href="/img/icons/generator/favicon.ico",
+        },
+        {
+            tagName: "meta",
+            name: "msapplication-TileColor",
+            content: "#ffffff"
+        },
+        {
+            tagName: "meta",
+            name: "msapplication-config",
+            content: "/img/icons/generator/browserconfig.xml",
+        },
+        {
+            tagName: "meta",
+            name: "theme-color",
+            content: "#1a1c28",
+        }
         ],
       },
       ],
@@ -191,3 +228,5 @@ module.exports = {
     ],
   ],
 };
+
+
