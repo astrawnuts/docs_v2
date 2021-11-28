@@ -5,14 +5,14 @@ const path = require('path');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Docs",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  tagline: "Say Hello to Knowledge",
+  url: "docz2233.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "warn", //ignore, log, warn, error, throw
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Tax Matterz", // Usually your GitHub org/user name.
+  projectName: "Help Desk", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "",
