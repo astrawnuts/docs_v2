@@ -25,7 +25,7 @@ module.exports = {
           type: "doc",
           docId: "welcome",
           position: "left",
-          label: "Knowledge Base",
+          label: "Help Desk",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
@@ -42,7 +42,7 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Knowledge Base",
+              label: "Help Desk",
               to: "/docs/",
             },
           ],
@@ -78,7 +78,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Tax Matterz © ${new Date().getFullYear()}. Knowledge Base Made With Love. Talk With Us For Your Next Site.`,
+      copyright: `Tax Matterz © ${new Date().getFullYear()}. Help Desk Made With 😍 Talk With Us For Your Next Site.`,
     },
     prism: {
       theme: lightCodeTheme,

@@ -88,7 +88,7 @@ h1 {
 }
 
 .table-of-contents__link {
-  color: #b9c8d0;
+  color: hsl(200, 19%, 37%);
 
   //Side bar table of contents active link color
   &--active {
@@ -111,11 +111,14 @@ html[data-theme="dark"] {
     //Side bar table of contents active link color
     &--active {
       color: white;
-    }
+      border-left: 4px solid #1b74e9;
 
+    }
+    
   }
 
   .navbar,
+
   .navbar-sidebar__brand {
     background-color: var(--ifm-color-primary);
   }
