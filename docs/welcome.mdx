@@ -10,6 +10,8 @@ date: 2021-09-15T14:39:24.843Z
 
 import ReactPlayer from "react-player";
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 
 :::info Welcome to our Help Desk.
 Spend some time and find answers to frequently asked questions. We have designed this Help Desk as a place to learn. Let us know if there's is a question you'd like to see here and we may put it up.
@@ -24,7 +26,36 @@ Learn more about how to use this site?
 
 ## <div class="emoji">📱</div> Install the Help Desk App by Tax Matterz
 
-Learn how to install Help Desk as an app on your smartphone or computer. Want a site like this built for you? Get in touch with Tax Matterz.
+Learn how to install Help Desk as an app on your smartphone or computer. 
+
+<Tabs>
+  <TabItem value="ios" label="iOS">
+      <div class="video">
+        <ReactPlayer playing="true" controls={false} playsinline={true} autoplay muted={true} loop={true} url="/img/video/web-app-ios.mp4" width="100%" height="100%" /> 
+      </div>
+        <ul>
+            <li>Open Safari and go to our Help Desk site.</li>
+            <li>Click on the share icon below.</li>
+            <li>Scroll down and click on "Add to Home Screen"</li>
+            <li>Click on the "Add" button on top right corner of the screen.</li>
+            <li>A new app called "Help Desk" will be installed on your phone.</li>
+        </ul>
+  </TabItem>
+    <TabItem value="samsung" label="Samsung">
+        Samsung
+  </TabItem>
+    <TabItem value="windows" label="Windows">
+        Windows
+  </TabItem>
+    <TabItem value="mac" label="macOS">
+        macOS
+  </TabItem>
+
+  </Tabs>
+
+
+
+Want a site like this built for you? Get in touch with Tax Matterz.
 
 ## <div class="emoji">📖</div> Browse Articles
 
