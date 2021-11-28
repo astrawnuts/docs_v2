@@ -133,7 +133,7 @@ module.exports = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(192, 0, 0)',
+            content: 'rgb(26, 28, 40)',
           },
         ],
       },
