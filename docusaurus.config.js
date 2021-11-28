@@ -154,8 +154,8 @@ module.exports = {
         },
         {
             tagName: 'link',
-            rel="shortcut icon",
-            href="/img/icons/generator/favicon.ico",
+            rel: "shortcut icon",
+            href: "/img/icons/generator/favicon.ico",
         },
         {
             tagName: "meta",
