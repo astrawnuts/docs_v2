@@ -11,7 +11,7 @@ Decoding means that you should explain what each bank transaction is meant for.
 Please decode your bank transactions whenever you are exporting them into an excel spreadsheet.
 Write a small description explaining what each transaction is for in the first blank column in the far right of the spreadsheet. Example shown below.
 
-[Additional steps when using macOS or Apple Numbers.](decoding-your-bank-transactions#im-using-an-apple-macos-computerapple-numbers)
+[Additional steps when using macOS or Apple Numbers.](decoding-your-bank-transactions#-additional-steps-for-macos-computersapple-numbers)
 
 ### <div class="emoji">🖥️</div> I'm using Windows (XP, Vista, 7, 8, 8.1, 10, 11)
 * If you are using Microsoft Windows and Microsoft Office you don't need to take any extra steps.
@@ -27,11 +27,10 @@ For example for an income transaction which you have received money you can simp
 For rent, insurance, power, petrol you can write rent, insurance, power, or petrol respectively.
 Another example is if the transaction is for personal purposes then simply write personal.
 
-### <div class="emoji">🍎</div> I'm using an Apple macOS Computer/Apple Numbers
+### <div class="emoji">🍎</div> Additional Steps for macOS Computers/Apple Numbers 
 * If you are using macOS and Apple Numbers then please make sure that the file you send to us is saved as an excel or csv file format (.xlsx, .xls or .csv). We are unable to open .numbers file formats. 
-* You can use [Free Software Excel Online, Google Sheets, Libre Office or Open Office ](2021-10-13-what-software-do-you-use-📦.md) to export your transactions in a format that we can use.
-
-### <div class="emoji">🍏</div> Additional Resources for macOS Computers/Apple Numbers 
 * [Video Tutorial: Convert an Apple Numbers File to Microsoft Excel using Numbers on macOS](https://youtu.be/VXr6zBATvzE?t=10)
 * Alternatively you can convert a .numbers file to .xlsx using [icloud.com](https://icloud.com) online for free (you need to have an apple account).
 * [Instructions: Convert a .numbers file to ".xlsx" using icloud.com](https://support.apple.com/en-us/HT205391#numbersforicloud) 
+* You can use [Free Software Excel Online, Google Sheets, Libre Office or Open Office ](2021-10-13-what-software-do-you-use-📦.md) to export your transactions in a format that we can use.
+

@@ -10,12 +10,12 @@ date: 2021-10-29T05:57:02.379Z
 import Fontawesome from "./components/Fontawesome.js";
 import { faHandshake } from '@fortawesome/free-solid-svg-icons';
 
+:::caution
+Your account may have third party access disabled. You first need to enable third-party access in your MyIR web portal so that we can login and access your account from our end. 
+:::
 
-Your account may have third party access disabled. 
 
-You first need to enable third-party access in your MyIR account otherwise we won't be able to access your account. 
-
-## Steps By Step Instructions:
+## <div class="emoji">📃</div> Steps:
 
 1. Login to MyIR using [https://www.ird.govt.nz/](https://www.ird.govt.nz/)
 2. On the top of the screen (top right if using desktop OR top left if using a mobile) click on "Manage my profile"
