@@ -158,6 +158,21 @@ html[data-theme="dark"] {
   255;
   --aa-selected-color-alpha: 0.25;
 
+  //change the search icon colour in dark mode
+  .navbar {
+    svg {
+      color: white !important;
+    }
+  }
+
+  //search icon in the popup form when searching
+//important overrides the default classes
+.aa-Label svg, .aa-LoadingIndicator svg {
+	/* color: #3e34d3; */
+  color: #fff !important;
+}
+
+
 }
 
 /* .navbar a:not(.navbar__link--active):not(.navbar-sidebar) {
@@ -194,12 +209,29 @@ html[data-theme="dark"] {
       width: calc(100% + 40px);
 
     }
+
+
   }
 
   svg {
-    color: white !important;
+    color: #2e3148;
   }
 
+
+
+}
+
+//search icon in the popup form when searching
+//important overrides the default classes
+.aa-Label svg, .aa-LoadingIndicator svg {
+	/* color: #3e34d3; */
+  color: #2e3148 !important;
+}
+
+.aa-SubmitIcon {
+  svg {
+    color: #2e3148 i !important;
+  }
 }
 
 // footer 
