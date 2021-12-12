@@ -6,7 +6,7 @@ const path = require('path');
 module.exports = {
   title: "Docs",
   tagline: "Say Hello to Knowledge",
-  url: "docz2233.netlify.app",
+  url: "https://docz2233.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "warn", //ignore, log, warn, error, throw
   onBrokenMarkdownLinks: "warn",
@@ -184,7 +184,7 @@ module.exports = {
         // must start with "/" and correspond to the routeBasePath configured for the docs plugin
         // use "/" if you use docs-only-mode
         // (see https://v2.docusaurus.io/docs/2.0.0-alpha.70/docs-introduction#docs-only-mode)
-        docsRouteBasePath: "/",
+        // docsRouteBasePath: "/",
 
         // Whether to also index the titles of the parent categories in the sidebar of a doc page.
         // 0 disables this feature.
@@ -200,7 +200,7 @@ module.exports = {
         // must start with "/" and correspond to the routeBasePath configured for the blog plugin
         // use "/" if you use blog-only-mode
         // (see https://v2.docusaurus.io/docs/2.0.0-alpha.70/blog#blog-only-mode)
-        blogRouteBasePath: "/blog",
+        // blogRouteBasePath: "/blog",
 
         // whether to index static pages
         // /404.html is never indexed
