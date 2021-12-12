@@ -169,7 +169,13 @@ html[data-theme="dark"] {
 //important overrides the default classes
 .aa-Label svg, .aa-LoadingIndicator svg {
 	/* color: #3e34d3; */
-  color: #fff !important;
+  color: #47c2e1  !important;
+}
+
+// search input box focus colour
+// overrides the default clasess using important
+.aa-Form:focus-within {
+  border-color:  #47c2e1 !important;
 }
 
 
@@ -219,6 +225,18 @@ html[data-theme="dark"] {
 
 
 
+}
+
+
+
+// search input box focus colour
+// overrides the default clasess using important
+.aa-Form:focus-within {
+  border-color:  #2e3148 !important;
+  /* border-color: rgba(var(--aa-primary-color-rgb),1); */
+  box-shadow: 0 0 0 2px rgb(62 52 211 / 20%), 0 0px 12px 5px rgb(62 52 211 / 20%) !important;
+  /* box-shadow: rgba(var(--aa-primary-color-rgb),var(--aa-primary-color-alpha)) 0 0 0 2px,inset rgba(var(--aa-primary-color-rgb),var(--aa-primary-color-alpha)) 0 0 0 2px; */
+  outline: medium none currentColor;
 }
 
 //search icon in the popup form when searching
