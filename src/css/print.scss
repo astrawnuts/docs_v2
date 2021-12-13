@@ -1,0 +1,22 @@
+//this file handles printing pages
+@media print {
+    nav, footer {
+        display: none;
+    }
+
+    .main-wrapper, ul, li {
+        color: black;
+        background-color: white;
+    }
+
+    //mobile nav should be hidden when printing
+    .tocCollapsible_node_modules-\@docusaurus-theme-classic-lib-next-theme-TOCCollapsible-styles-module {
+        display: none;
+    }
+
+    //table every second row when printing 
+    table tr:nth-child(2n) {
+        background-color: #dadde1;
+    }
+
+}

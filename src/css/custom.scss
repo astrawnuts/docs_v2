@@ -1,3 +1,5 @@
+@use "print.scss";
+
 /* stylelint-disable docusaurus/copyright-header */
 /**
  * Any CSS included here will be global. The classic template
@@ -138,6 +140,7 @@ html[data-theme="dark"] {
 
   // even in dark mode have a dark navbar background
   .navbar,
+
   .navbar-sidebar__brand {
     background-color: $primary;
   }
@@ -216,9 +219,7 @@ html[data-theme="dark"] {
 
     }
 
-
   }
-
    
     svg.aa-SubmitIcon {
       color: #2e3148;
@@ -280,4 +281,9 @@ html {
 
 .video {
   max-width: 380px;
+}
+
+//this fixes weird bugs that make embedded youtube video appear at their proper resolution
+iframe {
+  aspect-ratio: 16 / 9;
 }
