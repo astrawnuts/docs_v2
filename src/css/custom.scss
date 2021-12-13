@@ -287,3 +287,19 @@ html {
 iframe {
   aspect-ratio: 16 / 9;
 }
+
+/** Fallback (current, using intrinsic ratio technique) */
+// fall back for browsers that dont support aspect ratio
+@supports not (aspect-ratio: 16 / 9) { 
+  iframe::before {
+    float: left; 
+    padding-top: 56.25%; 
+    content: '';
+  }
+
+  iframe:after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}

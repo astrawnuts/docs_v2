@@ -1,10 +1,18 @@
 //this file handles printing pages
 @media print {
-    nav, footer {
+    html, body {
+        height: 99%;
+        page-break-after: avoid !important;
+        page-break-before: avoid !important;
+     }
+
+    nav, footer, button.clean-btn.theme-back-to-top-button {
         display: none;
+        overflow-y: hidden;
+        margin-bottom: 0;
     }
 
-    .main-wrapper, ul, li {
+    .main-wrapper, ul, li, body {
         color: black;
         background-color: white;
     }
@@ -18,5 +26,8 @@
     table tr:nth-child(2n) {
         background-color: #dadde1;
     }
+
+
+
 
 }
