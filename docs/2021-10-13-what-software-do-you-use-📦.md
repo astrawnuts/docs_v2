@@ -5,7 +5,7 @@ slug: what-software-do-you-use
 date: 2021-10-13T05:13:59.411Z
 ---
 
-# <div class="emoji">📦</div> additional Software 
+# <div class="emoji">📦</div> additional Software
 
 <!-- 
 import Fontawesome from "./components/Fontawesome.js";

@@ -27,6 +27,11 @@
         background-color: #dadde1;
     }
 
+    article::after {
+        content: 'test hello this is the print footer';
+        margin-top: 4rem;
+    }
+
 
 
 

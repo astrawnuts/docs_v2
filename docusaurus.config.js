@@ -72,6 +72,10 @@ module.exports = {
               to: "/blog",
             },
             {
+              label: "Stack Overflow", 
+              to: "https://docz2233.netlify.app/admin"
+            }, 
+            {
               label: "GitHub",
               href: "https://github.com/facebook/docusaurus",
             },
