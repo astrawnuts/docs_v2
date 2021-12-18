@@ -147,9 +147,15 @@ html[data-theme="dark"] {
   --ifm-background-color: #1a1c28;
   --ifm-background-surface-color: #1a1c28;
 
-  --aa-input-background-color-rgb: 26, 28, 40;
-  --aa-background-color-rgb: 26, 28, 40;
-  --aa-selected-color-rgb: 146, 138, 255;
+  --aa-input-background-color-rgb: 26,
+  28,
+  40;
+  --aa-background-color-rgb: 26,
+  28,
+  40;
+  --aa-selected-color-rgb: 146,
+  138,
+  255;
   --aa-selected-color-alpha: 0.25;
 
   //change the search icon colour in dark mode
@@ -164,7 +170,7 @@ html[data-theme="dark"] {
   .aa-Label svg,
   .aa-LoadingIndicator svg {
     /* color: #3e34d3; */
-    color: #47c2e1 !important;
+    color: darken(#fff, 40%) !important;
   }
 
   // search input box focus colour
@@ -172,6 +178,42 @@ html[data-theme="dark"] {
   .aa-Form:focus-within {
     border-color: #47c2e1 !important;
   }
+
+  //color for the placeholder text in the search box
+  input.aa-Input::-webkit-input-placeholder {
+    color: darken(#fff, 40%);
+  }
+
+  input.aa-Input::-moz-placeholder {
+    color: darken(#fff, 40%);
+  }
+
+  input.aa-Input:-ms-input-placeholder {
+    color: darken(#fff, 40%);
+  }
+
+  input.aa-Input::-ms-input-placeholder {
+    color: darken(#fff, 40%);
+  }
+
+  input.aa-Input::placeholder {
+    color: darken(#fff, 40%);
+  }
+
+  //color for the placeholder text in the search box
+
+  input.aa-Input {
+    color: #fff;
+  }
+
+  button.aa-ClearButton {
+    color: darken($color: #fff, $amount: 40%);
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
 }
 
 /* .navbar a:not(.navbar__link--active):not(.navbar-sidebar) {
@@ -292,4 +334,13 @@ iframe {
 //footer links hover colour
 .footer__link-item:hover {
   color: var(--ifm-navbar-link-hover-color);
+}
+
+
+//disables the hover colour for the first column in the footer so we can use it as a text 
+// column
+.footer__links > :first-child a {
+  color: white !important;
+  text-decoration: none;
+  cursor: default;
 }

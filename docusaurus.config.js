@@ -45,7 +45,28 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Tax Matterz NZ Limited",
+          items: [
+
+            {
+              label: "Auckland New Zealand",
+              to: "/",
+            },
+            {
+              label: "Accounting & Taxation Services",
+              to: "/",
+            },
+
+   
+
+            {
+              label: "Get your website designed by Tax Matterz. Get in touch with us to learn more.",
+              to: "/",
+            },
+          ],
+        },
+        {
+          title: "Learn Using",
           items: [
             {
               label: "Help Desk",
