@@ -303,3 +303,7 @@ iframe {
     clear: both;
   }
 }
+
+.footer__link-item:hover {
+	color:var(--ifm-navbar-link-hover-color);
+}

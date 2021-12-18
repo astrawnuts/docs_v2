@@ -36,11 +36,21 @@ module.exports = {
       ],
     },
     footer: {
+      logo: {
+        alt: 'Some logo',
+        src: 'img/logo.original.svg', // with respect to static dir
+        href: 'https://taxmattersnz.co.nz',
+      },
+
       style: "dark",
       links: [
         {
           title: "Docs",
           items: [
+            {
+              label: "Help Desk",
+              to: "/docs/",
+            },
             {
               label: "Help Desk",
               to: "/docs/",
@@ -51,15 +61,20 @@ module.exports = {
           title: "Tax Matterz",
           items: [
             {
-              label: "Stack Overflow",
+              label: "Home",
               href: "https://stackoverflow.com/questions/tagged/docusaurus",
             },
             {
-              label: "Discord",
+              label: "Services",
               href: "https://discordapp.com/invite/docusaurus",
             },
             {
-              label: "Twitter",
+              label: "Forms",
+              href: "https://twitter.com/docusaurus",
+            },
+
+            {
+              label: "Contact Us",
               href: "https://twitter.com/docusaurus",
             },
           ],
