@@ -1,27 +1,122 @@
-//for styles that are related to the navbar
-//this file is imported into the custom.scss master file
-//custom.scss file is global styles for the whole site
+/***
+ * For styles that are related to the Navbar
+ * this file is imported into the custom.scss master file
+ * custom.scss file is global styles for the whole site
+ */
+
+$primary: #2e3148;
+
+:root {
+  /* --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%; */
+  --ifm-color-primary: #2e3148;
+  --ifm-color-primary-dark: #292c41;
+  --ifm-color-primary-darker: #272a3d;
+  --ifm-color-primary-darkest: #202232;
+  --ifm-color-primary-light: #33364f;
+  --ifm-color-primary-lighter: #353853;
+  --ifm-color-primary-lightest: #3c405e;
+
+  --ifm-tabs-color-active: #1b74e9;
+  --ifm-navbar-link-hover-color: #1b74e9;
+  --ifm-navbar-link-hover-color: #47c2e1;
+
+  --ifm-link-color: #1b74e9;
+
+  --NAVBAR-HEIGHT: 5rem;
+}
 
 
+//the logo in the navbar
 .navbar__logo {
-    flex: 0 0 auto;
-    height: 4rem;
-    margin-right: 0.5rem;
+  flex: 0 0 auto;
+  height: 4rem;
+  margin-right: 0.5rem;
+}
+
+.navbar,
+.navbar-sidebar__brand {
+  background-color: var(--ifm-color-primary);
+}
+
+// white navbar toggle button
+.navbar__toggle {
+  &.clean-btn {
+    color: white;
   }
-  
-  .navbar {
-    height: var(--NAVBAR-HEIGHT);
+}
+
+.navbar__brand {
+  margin-right: 1rem;
+}
+
+.navbar-sidebar__brand {
+  height: var(--NAVBAR-HEIGHT);
+}
+
+// Uses a pseudo element => inspired by website reactnative.dev
+.navbar {
+  height: var(--NAVBAR-HEIGHT);
+
+  //the navbar link colour
+  .navbar__link {
+    color: #fff;
+
+    //the active colour for a navbar link
+    &--active {
+      color: #47c2e1;
+
+      &::after {
+        background: #47c2e1;
+        content: "";
+        display: flex;
+        height: 5px;
+        margin-left: -20px;
+        margin-right: -20px;
+        // margin-top: 0.1rem;
+        position: relative;
+        top: 1.5rem;
+        width: calc(100% + 40px);
+      }
+    }
   }
-  
+
+  svg.aa-SubmitIcon {
+    color: #2e3148;
+  }
+}
+
+/** ===========================================================================================================================
+ *                                                        DARK MODE
+ * ===========================================================================================================================*/
+
+// Navbar in darkmode and its components
+html[data-theme="dark"] {
   .navbar,
   .navbar-sidebar__brand {
     background-color: var(--ifm-color-primary);
   }
-  
-  // white navbar toggle button
-  .navbar__toggle {
-    &.clean-btn {
-      color: white;
+
+  // even in dark mode have a dark navbar background
+  .navbar,
+  .navbar-sidebar__brand {
+    background-color: $primary;
+  }
+
+  //change the search icon colour in dark mode
+  .navbar {
+    svg {
+      color: white !important;
     }
   }
-  
+}
+
+/** ===========================================================================================================================
+ *                                                        DARK MODE
+ * ===========================================================================================================================*/

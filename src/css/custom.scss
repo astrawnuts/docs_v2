@@ -1,6 +1,9 @@
+@use "global.scss";
 @use "print.scss";
 @use "navbar.scss";
 @use "footer.scss";
+@use "video.scss";
+@use "search.scss";
 
 /* stylelint-disable docusaurus/copyright-header */
 /**
@@ -12,14 +15,6 @@
 //  you can also override default CSS classes using this file by using inspect tool in firefox or chrome to know which classes to override.
 /* You can override the default Infima variables here. */
 :root {
-  /* --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%; */
   --ifm-color-primary: #2e3148;
   --ifm-color-primary-dark: #292c41;
   --ifm-color-primary-darker: #272a3d;
@@ -51,24 +46,9 @@ a:not(.pagination-nav__link) {
   padding: 0 var(--ifm-pre-padding);
 }
 
-h1 {
-  font-size: 2.5rem;
-}
-
-.player-wrapper {
-  width: auto;
-  /*Reset width*/
-  height: auto;
-  /*Resetwidthheight Reset height*/
-}
-
-.react-player {
-  padding-top: 56.25%;
-  /* Percentage ratio for 16:9;Percentageratiofor16Percentageratiofor16Percentageratiofor16*/
-  position: relative;
-  /* Set to relativepositionposition*/
-}
-
+/**
+ * Table of Contents on the right hand side of the desktop view.
+*/
 .table-of-contents__link {
   color: hsl(200, 19%, 37%);
 
@@ -99,11 +79,6 @@ html[data-theme="dark"] {
     background-color: var(--ifm-color-primary-dark);
   }
 
-  .navbar,
-  .navbar-sidebar__brand {
-    background-color: var(--ifm-color-primary);
-  }
-
   :not(.pagination-nav__link) {
     --ifm-color-primary: white !important;
     --ifm-menu-color-background-active: #1b74e9;
@@ -117,191 +92,14 @@ html[data-theme="dark"] {
     color: white;
   }
 
-  // even in dark mode have a dark navbar background
-  .navbar,
-  .navbar-sidebar__brand {
-    background-color: $primary;
-  }
-
   // background colour of the body section when in dark mode
   --ifm-background-color: #1a1c28;
   --ifm-background-surface-color: #1a1c28;
 
-  --aa-input-background-color-rgb: 26,
-  28,
-  40;
-  --aa-background-color-rgb: 26,
-  28,
-  40;
-  --aa-selected-color-rgb: 146,
-  138,
-  255;
+  --aa-input-background-color-rgb: 26, 28, 40;
+  --aa-background-color-rgb: 26, 28, 40;
+  --aa-selected-color-rgb: 146, 138, 255;
   --aa-selected-color-alpha: 0.25;
 
-  //change the search icon colour in dark mode
-  .navbar {
-    svg {
-      color: white !important;
-    }
-  }
-
-  //search icon in the popup form when searching
-  //important overrides the default classes
-  .aa-Label svg,
-  .aa-LoadingIndicator svg {
-    /* color: #3e34d3; */
-    color: darken(#fff, 40%) !important;
-  }
-
-  // search input box focus colour
-  // overrides the default clasess using important
-  .aa-Form:focus-within {
-    border-color: #47c2e1 !important;
-  }
-
-  //color for the placeholder text in the search box
-  input.aa-Input::-webkit-input-placeholder {
-    color: darken(#fff, 40%);
-  }
-
-  input.aa-Input::-moz-placeholder {
-    color: darken(#fff, 40%);
-  }
-
-  input.aa-Input:-ms-input-placeholder {
-    color: darken(#fff, 40%);
-  }
-
-  input.aa-Input::-ms-input-placeholder {
-    color: darken(#fff, 40%);
-  }
-
-  input.aa-Input::placeholder {
-    color: darken(#fff, 40%);
-  }
-
-  //color for the placeholder text in the search box
-
-  input.aa-Input {
-    color: #fff;
-  }
-
-  button.aa-ClearButton {
-    color: darken($color: #fff, $amount: 40%);
-
-    &:hover {
-      color: #fff;
-    }
-  }
-
 }
 
-/* .navbar a:not(.navbar__link--active):not(.navbar-sidebar) {
-  color: white;
-} */
-
-.navbar__link {
-  color: #fff;
-}
-
-.navbar__brand {
-  margin-right: 1rem;
-}
-
-.navbar-sidebar__brand {
-  height: var(--NAVBAR-HEIGHT);
-}
-
-// Uses a pseudo element => inspired by website reactnative.dev
-.navbar {
-  .navbar__link--active {
-    color: #47c2e1;
-
-    &::after {
-      background: #47c2e1;
-      content: "";
-      display: flex;
-      height: 5px;
-      margin-left: -20px;
-      margin-right: -20px;
-      // margin-top: 0.1rem;
-      position: relative;
-      top: 1.5rem;
-      width: calc(100% + 40px);
-    }
-  }
-
-  svg.aa-SubmitIcon {
-    color: #2e3148;
-  }
-}
-
-// search input box focus colour
-// overrides the default clasess using important
-.aa-Form:focus-within {
-  border-color: #2e3148 !important;
-  /* border-color: rgba(var(--aa-primary-color-rgb),1); */
-  box-shadow: 0 0 0 2px rgb(62 52 211 / 20%),
-    0 0px 12px 5px rgb(62 52 211 / 20%) !important;
-  /* box-shadow: rgba(var(--aa-primary-color-rgb),var(--aa-primary-color-alpha)) 0 0 0 2px,inset rgba(var(--aa-primary-color-rgb),var(--aa-primary-color-alpha)) 0 0 0 2px; */
-  outline: medium none currentColor;
-}
-
-//search icon in the popup form when searching
-//important overrides the default classes
-.aa-Label svg,
-.aa-LoadingIndicator svg {
-  /* color: #3e34d3; */
-  color: #2e3148 !important;
-}
-
-.aa-SubmitIcon {
-  svg {
-    color: #2e3148 i !important;
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: capitalize;
-}
-
-//this takes care of the fixed navbar on the top that is larger than standard docusaurus
-html {
-  scroll-padding-top: 2rem;
-}
-
-//this class should be used when emojis are used in headings tags so that they appear in colour in chrome based browsers
-.emoji {
-  font-weight: normal;
-  display: inline-block;
-}
-
-.video {
-  max-width: 380px;
-}
-
-//this fixes weird bugs that make embedded youtube video appear at their proper resolution
-iframe {
-  aspect-ratio: 16 / 9;
-}
-
-/** Fallback (current, using intrinsic ratio technique) */
-// fall back for browsers that dont support aspect ratio
-@supports not (aspect-ratio: 16 / 9) {
-  iframe::before {
-    float: left;
-    padding-top: 56.25%;
-    content: "";
-  }
-
-  iframe:after {
-    display: block;
-    content: "";
-    clear: both;
-  }
-}
