@@ -1,0 +1,47 @@
+/**
+ * For styles that are related to the React Video Player/iframe
+ * This file is imported into the custom.scss master file
+ * custom.scss file is global styles for the whole site.
+*/
+
+.player-wrapper {
+  width: auto;
+  /*Reset width*/
+  height: auto;
+  /*Resetwidthheight Reset height*/
+}
+
+.react-player {
+  padding-top: 56.25%;
+  /* Percentage ratio for 16:9;Percentageratiofor16Percentageratiofor16Percentageratiofor16*/
+  position: relative;
+  /* Set to relativepositionposition*/
+}
+
+//this is for the autoplaying mp4 on the home page
+.video {
+  max-width: 380px;
+}
+
+//this fixes weird bugs that make embedded youtube video appear at their proper resolution
+iframe {
+  aspect-ratio: 16 / 9;
+}
+
+
+/** Fallback (current, using intrinsic ratio technique) */
+// fall back for browsers that dont support aspect ratio
+@supports not (aspect-ratio: 16 / 9) {
+    iframe::before {
+      float: left;
+      padding-top: 56.25%;
+      content: "";
+    }
+  
+    iframe:after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+  }
+  

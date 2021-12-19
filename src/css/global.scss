@@ -1,0 +1,34 @@
+/**
+ * For styles that are related to the whole page global styles
+ * This file is imported into the custom.scss master file
+ * Custom.scss file is global styles for the whole site
+*/
+
+
+/**
+ * Headings Typography
+ * **/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+  
+//this takes care of the fixed navbar on the top that is larger than standard docusaurus
+html {
+  scroll-padding-top: 2rem;
+}
+
+//this class should be used when emojis are used in headings tags so that they appear in colour in chrome based browsers
+.emoji {
+  font-weight: normal;
+  display: inline-block;
+}
+

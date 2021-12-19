@@ -1,0 +1,80 @@
+/**
+ * For styles that are related to the Global Search Input Box
+ * This file is imported into the custom.scss master file
+ * Custom.scss file is global styles for the whole site
+*/
+
+// search input box focus colour
+// overrides the default clasess using important
+.aa-Form:focus-within {
+  border-color: #2e3148 !important;
+  /* border-color: rgba(var(--aa-primary-color-rgb),1); */
+  box-shadow: 0 0 0 2px rgb(62 52 211 / 20%),
+    0 0px 12px 5px rgb(62 52 211 / 20%) !important;
+  /* box-shadow: rgba(var(--aa-primary-color-rgb),var(--aa-primary-color-alpha)) 0 0 0 2px,inset rgba(var(--aa-primary-color-rgb),var(--aa-primary-color-alpha)) 0 0 0 2px; */
+  outline: medium none currentColor;
+}
+
+//search icon in the popup form when searching
+//important overrides the default classes
+.aa-Label svg,
+.aa-LoadingIndicator svg {
+  /* color: #3e34d3; */
+  color: #2e3148 !important;
+}
+
+.aa-SubmitIcon {
+  svg {
+    color: #2e3148 i !important;
+  }
+}
+
+html[data-theme="dark"] {
+  //search icon in the popup form when searching
+  //important overrides the default classes
+  .aa-Label svg,
+  .aa-LoadingIndicator svg {
+    /* color: #3e34d3; */
+    color: darken(#fff, 40%) !important;
+  }
+
+  // search input box focus colour
+  // overrides the default clasess using important
+  .aa-Form:focus-within {
+    border-color: #47c2e1 !important;
+  }
+
+  //color for the placeholder text in the search box
+  input.aa-Input::-webkit-input-placeholder {
+    color: darken(#fff, 40%);
+  }
+
+  input.aa-Input::-moz-placeholder {
+    color: darken(#fff, 40%);
+  }
+
+  input.aa-Input:-ms-input-placeholder {
+    color: darken(#fff, 40%);
+  }
+
+  input.aa-Input::-ms-input-placeholder {
+    color: darken(#fff, 40%);
+  }
+
+  input.aa-Input::placeholder {
+    color: darken(#fff, 40%);
+  }
+  //color for the placeholder text in the search box
+
+  input.aa-Input {
+    color: #fff;
+  }
+
+  button.aa-ClearButton {
+    color: darken($color: #fff, $amount: 40%);
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
