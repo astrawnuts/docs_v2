@@ -1,11 +1,11 @@
 ---
 title: 📁 How Do I Export My Bank Transactions? 
-sidebar_label: 📁 How Do I Export My Bank Transactions? 
+sidebar_label: 📁 How To Export My Bank Transactions? 
 slug: /exporting-your-bank-transactions
 date: 2021-09-15T14:21:24.027Z
 ---
 
-# <div class="emoji">📁</div> How Do I Export My Bank Transactions? 
+# <div class="emoji">📁</div> How To Export My Bank Transactions? 
 
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
