@@ -1,3 +1,58 @@
 //for styles that are related to the footer
 //this file is imported into the custom.scss master file
 //custom.scss file is global styles for the whole site
+
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+//  you can also override default CSS classes using this file by using inspect tool in firefox or chrome to know which classes to override.
+/* You can override the default Infima variables here. */
+:root {
+  /* --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%; */
+  --ifm-color-primary: #2e3148;
+  --ifm-color-primary-dark: #292c41;
+  --ifm-color-primary-darker: #272a3d;
+  --ifm-color-primary-darkest: #202232;
+  --ifm-color-primary-light: #33364f;
+  --ifm-color-primary-lighter: #353853;
+  --ifm-color-primary-lightest: #3c405e;
+
+  --ifm-tabs-color-active: #1b74e9;
+  --ifm-navbar-link-hover-color: #1b74e9;
+  --ifm-navbar-link-hover-color: #47c2e1;
+
+  --ifm-link-color: #1b74e9;
+
+  --NAVBAR-HEIGHT: 5rem;
+}
+
+$primary: #2e3148;
+
+// footer
+.footer {
+  background-color: $primary;
+}
+
+//footer links hover colour
+.footer__link-item:hover {
+  color: var(--ifm-navbar-link-hover-color);
+}
+
+//disables the hover colour for the first column in the footer so we can use it as a text 
+// column
+.footer__links> :first-child a {
+  color: white !important;
+  text-decoration: none;
+  cursor: default;
+}

@@ -1,3 +1,27 @@
 //for styles that are related to the navbar
 //this file is imported into the custom.scss master file
 //custom.scss file is global styles for the whole site
+
+
+.navbar__logo {
+    flex: 0 0 auto;
+    height: 4rem;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar {
+    height: var(--NAVBAR-HEIGHT);
+  }
+  
+  .navbar,
+  .navbar-sidebar__brand {
+    background-color: var(--ifm-color-primary);
+  }
+  
+  // white navbar toggle button
+  .navbar__toggle {
+    &.clean-btn {
+      color: white;
+    }
+  }
+  

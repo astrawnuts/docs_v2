@@ -69,28 +69,6 @@ h1 {
   /* Set to relativepositionposition*/
 }
 
-.navbar__logo {
-  flex: 0 0 auto;
-  height: 4rem;
-  margin-right: 0.5rem;
-}
-
-.navbar {
-  height: var(--NAVBAR-HEIGHT);
-}
-
-.navbar,
-.navbar-sidebar__brand {
-  background-color: var(--ifm-color-primary);
-}
-
-// white navbar toggle button
-.navbar__toggle {
-  &.clean-btn {
-    color: white;
-  }
-}
-
 .table-of-contents__link {
   color: hsl(200, 19%, 37%);
 
@@ -283,11 +261,6 @@ html[data-theme="dark"] {
   }
 }
 
-// footer
-.footer {
-  background-color: $primary;
-}
-
 h1,
 h2,
 h3,
@@ -331,18 +304,4 @@ iframe {
     content: "";
     clear: both;
   }
-}
-
-//footer links hover colour
-.footer__link-item:hover {
-  color: var(--ifm-navbar-link-hover-color);
-}
-
-
-//disables the hover colour for the first column in the footer so we can use it as a text 
-// column
-.footer__links > :first-child a {
-  color: white !important;
-  text-decoration: none;
-  cursor: default;
 }
