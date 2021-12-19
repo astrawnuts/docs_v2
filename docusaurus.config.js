@@ -111,6 +111,10 @@ module.exports = {
               label: "GitHub",
               href: "https://github.com/astrawnuts/docs_v2/tree/master/",
             },
+            {
+              label: "Request An Article",
+              href: "https://github.com/astrawnuts/docs_v2/tree/master/",
+            },
           ],
         },
       ],
