@@ -17,6 +17,7 @@ Here is a list of free software that you may find useful in doing your taxes, or
 | Program    |  Description   |   Link  |
 | --- | --- | --- |
 |  Adobe Reader   |  View, sign and fill PDF files. |   https://get.adobe.com/reader/  |
+|  Adobe Scan   |  Use your smartphone camera to scan papers, business cards and other documents. | https://get.adobe.com/reader/ |
 |  Google Docs, Sheets, Slides   |  Cloud based office suite, allows you to create documents, spreadsheets and presentations.   | https://www.google.com/docs/about/ |
 |  Microsoft Office Online  |  Cloud based office suite, allows you to create documents, spreadsheets and presentations.   | https://www.microsoft.com/en-in/microsoft-365/free-office-online-for-the-web |
 |  Libre Office |  Desktop office suite, allows you to create documents, spreadsheets and presentations.   | https://www.libreoffice.org/ |
