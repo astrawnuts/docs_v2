@@ -48,3 +48,21 @@ html {
 .case {
   text-transform: none;
 }
+
+
+/*
+ * Class that allows content to be displayed on mobile view ports and hidden on larger screen devices 
+ */
+.show-on-mobile {
+  display: none;
+}
+
+/*
+ * Class that allows content to be displayed on mobile view ports and hidden on larger screen devices 
+ */
+@media (max-width: 450px) {
+  .show-on-mobile {
+    display: inline;
+  }
+}
+
