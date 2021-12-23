@@ -10,7 +10,7 @@ date: 2021-09-15T14:21:24.027Z
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-:::info
+:::tip Use Your Laptop/Desktop PC.
 Follow the steps listed below for your bank to export transactions as an excel (.xlsx, .xls) or .csv file. In most cases it is better to use a laptop/desktop computer to perform these steps rather than using a mobile application.
 :::
 
