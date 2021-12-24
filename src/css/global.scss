@@ -66,15 +66,3 @@ html {
   }
 }
 
-
-//check if in pwa mode
-@media all and (display-mode: standalone) {
-  .install-button {
-    display: none;
-  }
-
-  footer {
-    display: none;
-  }
-}
-
