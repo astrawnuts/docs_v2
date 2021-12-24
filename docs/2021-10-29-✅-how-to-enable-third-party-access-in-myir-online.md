@@ -6,10 +6,6 @@ date: 2021-10-29T05:57:02.379Z
 ---
 # <div class="emoji">🤝</div> Enable third party access in MyIR. 
 
-
-import Fontawesome from "./components/Fontawesome.js";
-import { faHandshake } from '@fortawesome/free-solid-svg-icons';
-
 :::caution
 Your account may have third party access disabled. You first need to enable third-party access in your MyIR web portal so that we can login and access your account from our end. 
 :::
