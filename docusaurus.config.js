@@ -34,6 +34,7 @@ module.exports = {
           position: "right",
         },
       ],
+      hideOnScroll: false,
     },
     footer: {
       logo: {

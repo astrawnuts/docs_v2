@@ -15,6 +15,7 @@ display: none;
 
     .main-wrapper {
         margin-bottom: 4rem;
+     
     }
 
 }
@@ -23,7 +24,7 @@ display: none;
 .tab-bar {
     display: block;
     width: 100%;
-    height: max(calc(100vh * (106/1366)), 60px);
+    height: calc(max(calc(100vh * (106/1366)), 60px) + 20px);
     background-color: white;
     overflow-x: hidden;
     overflow: hidden;
