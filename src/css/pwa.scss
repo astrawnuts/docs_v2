@@ -1,5 +1,5 @@
 .tab-bar {
-display: none;
+    display: none;
 }
 
 //check if in pwa mode and do extra things
@@ -15,7 +15,7 @@ display: none;
 
     .main-wrapper {
         margin-bottom: 4rem;
-     
+
     }
 
 }
@@ -24,8 +24,8 @@ display: none;
 .tab-bar {
     display: block;
     width: 100%;
-    height: calc(max(calc(100vh * (106/1366)), 60px) + 20px);
-    background-color: white;
+    height: calc(max(calc(100vh * (106/1366)), 60px) + 17px);
+    background-color: #f7f7f7;
     overflow-x: hidden;
     overflow: hidden;
     position: fixed;
@@ -54,23 +54,33 @@ display: none;
         font-size: 0.5rem;
         text-transform: uppercase;
         margin: 0;
+        color: #1b74e9;
         // padding: 0;
 
         .icon {
-            text-align: center; 
-            color: rgb(27, 142, 187);
+            text-align: center;
+            // color: rgb(27, 142, 187);
 
         }
 
         .label {
             text-align: center;
-            color: rgb(27, 142, 187);
+            font-weight: 600;
+            // color: rgb(27, 142, 187);
         }
 
+    }
+
+    .clean-btn.theme-back-to-top-button {
+        display: none;
     }
 }
 
 
 .m-auto {
     margin: auto;
+}
+
+.clean-btn.theme-back-to-top-button {
+    display: none;
 }
