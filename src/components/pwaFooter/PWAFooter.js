@@ -14,7 +14,22 @@ export default function PWAFooter() {
         <div className="container">
           <div className="row-bar">
             <div className="col-bar">
-              <div className="icon">
+              <div
+                className="icon"
+                onClick={() => {
+                  let width = window.innerWidth;
+                  console.log(width);
+                  //if app is in mobile mode (without sidebar)
+                  if (width <= 996) {
+                    document.querySelector("button.navbar__toggle").click();
+                  } else {
+                    window.location.href = "/";
+                  }
+
+                  //if desktop view is showing
+
+                }}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -25,13 +40,13 @@ export default function PWAFooter() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="feather feather-airplay"
+                  class="feather feather-book-open"
                 >
-                  <path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path>
-                  <polygon points="12 15 17 21 7 21 12 15"></polygon>
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
                 </svg>
               </div>
-              <div className="label">hello</div>
+              <div className="label">Articles</div>
             </div>
             <div className="col-bar">
               <div className="icon">
@@ -60,20 +75,6 @@ export default function PWAFooter() {
                   document
                     .querySelector("button.aa-DetachedSearchButton")
                     .click();
-                  let searchInputBox = null;
-                  let i = 0;
-                  while(i < 1000) {
-                    if(typeof document.querySelector("aa-InputWrapper > input") == undefined) {
-                      i++;
-                      continue
-                    } else {
-                      searchInputBox = document.querySelector("aa-InputWrapper > input");
-                      break;
-                    }
-                  }
-                  searchInputBox.focus();
-                  searchInputBox.click();
-                  
                 }}
               >
                 <svg
