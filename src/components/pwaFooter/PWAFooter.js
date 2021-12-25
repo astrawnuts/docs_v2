@@ -8,6 +8,7 @@ export default function PWAFooter() {
     document.documentElement.scrollTop = 0;
   }
 
+  //share current page on mobile
   function sharePage() {
     if (navigator.share) {
 
