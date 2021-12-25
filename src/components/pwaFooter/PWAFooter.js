@@ -60,7 +60,17 @@ export default function PWAFooter() {
                   document
                     .querySelector("button.aa-DetachedSearchButton")
                     .click();
-                  const searchInputBox = document.querySelector("aa-InputWrapper > input");
+                  let searchInputBox = null;
+                  let i = 0;
+                  while(i < 1000) {
+                    if(typeof document.querySelector("aa-InputWrapper > input") == undefined) {
+                      i++;
+                      continue
+                    } else {
+                      searchInputBox = document.querySelector("aa-InputWrapper > input");
+                      break;
+                    }
+                  }
                   searchInputBox.click()
                   
                 }}
