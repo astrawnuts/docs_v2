@@ -1,36 +1,34 @@
 .tab-bar {
-    display: none;
+  display: none;
 }
 
 //check if in pwa mode and do extra things
 @media all and (display-mode: standalone) {
-    .install-button {
-        display: none;
-    }
+  .install-button {
+    display: none;
+  }
 
-    footer {
-        display: none;
-    }
+  footer {
+    display: none;
+  }
 
-    //adds padding for the bottom bar
-    .main-wrapper {
-        margin-bottom: calc(4rem + 20px);
-    }
+  //adds padding for the bottom bar
+  .main-wrapper {
+    margin-bottom: calc(4rem + 20px);
+  }
 
+  .m-auto {
+    margin: auto;
+  }
 
+  .clean-btn.theme-back-to-top-button {
+    display: none;
+  }
 
-    .m-auto {
-        margin: auto;
-    }
-
-    .clean-btn.theme-back-to-top-button {
-        display: none;
-    }
-
-.tab-bar {
+  .tab-bar {
     display: block;
     width: 100%;
-    height: calc(max(calc(100vh * (106/1366)), 60px) + 17px);
+    height: calc(max(calc(100vh * (106 / 1366)), 60px) + 17px);
     background-color: #f7f7f7;
     overflow-x: hidden;
     overflow: hidden;
@@ -42,45 +40,53 @@
     padding: 0;
 
     .row-bar {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        width: 100%;
-        height: 4rem;
-        align-items: center;
-        margin: 0;
-        padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      width: 100%;
+      height: 4rem;
+      align-items: center;
+      margin: 0;
+      padding: 0;
     }
 
     .col-bar {
-        // flex-direction: column;
-        // background-color: hotpink;
-        padding: 0.5rem;
-        font-size: 0.5rem;
-        text-transform: uppercase;
-        margin: 0;
-        color: #1b74e9;
-        // padding: 0;
+      // flex-direction: column;
+      // background-color: hotpink;
+      padding: 0.5rem;
+      font-size: 0.5rem;
+      text-transform: uppercase;
+      margin: 0;
+      color: #1b74e9;
+      // padding: 0;
 
-        .icon {
-            text-align: center;
-            // color: rgb(27, 142, 187);
+      .icon {
+        text-align: center;
+        // color: rgb(27, 142, 187);
+      }
 
-        }
-
-        .label {
-            text-align: center;
-            font-weight: 600;
-            font-size: 0.7rem;
-            // color: rgb(27, 142, 187);
-        }
-
+      .label {
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.7rem;
+        // color: rgb(27, 142, 187);
+      }
     }
 
     .clean-btn.theme-back-to-top-button {
-        display: none;
+      display: none;
     }
+  }
 }
 
+//how to appear in dark mode
+html[data-theme="dark"] {
+  .tab-bar {
+    background-color: hsl(231, 21%, 3%);
+    border-top: 1px solid black;
+    .col-bar {
+      color: #1b74e9;
+    }
+  }
 }
