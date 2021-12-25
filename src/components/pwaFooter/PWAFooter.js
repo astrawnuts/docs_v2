@@ -71,7 +71,8 @@ export default function PWAFooter() {
                       break;
                     }
                   }
-                  searchInputBox.click()
+                  searchInputBox.focus();
+                  searchInputBox.click();
                   
                 }}
               >
