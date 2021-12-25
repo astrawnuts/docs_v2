@@ -60,6 +60,7 @@ export default function PWAFooter() {
                   document
                     .querySelector("button.aa-DetachedSearchButton")
                     .click();
+                  document.querySelector("input#autocomplete-14-input").click();
                 }}
               >
                 <svg
