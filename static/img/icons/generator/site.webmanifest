@@ -15,6 +15,6 @@
     ],
     "theme_color": "#2e3148",
     "background_color": "#2e3148",
-    "start_url": "/?source=pwa",
+    "start_url": "https://help.taxmatterz.com/?source=pwa",
     "display": "standalone"
 }
