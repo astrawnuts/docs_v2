@@ -228,6 +228,11 @@ module.exports = {
             content: "#2e3148",
           },
           {
+            tagName: "meta", 
+            name: "apple-mobile-web-app-status-bar-style", 
+            content: "black-translucent", 
+          }, 
+          {
             tagName: "meta",
             name: "apple-mobile-web-app-capable", 
             content: "yes",
