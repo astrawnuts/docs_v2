@@ -57,9 +57,6 @@ module.exports = {
               label: "Accounting & Taxation Services",
               to: "/",
             },
-
-   
-
             {
               label: "Get your website designed by Tax Matterz. Get in touch with us to learn more.",
               to: "/",
@@ -105,9 +102,9 @@ module.exports = {
               to: "/blog",
             },
             {
-              label: "CMS", 
+              label: "CMS",
               to: "https://helpdesk-taxmatterz.netlify.app/admin"
-            }, 
+            },
             {
               label: "GitHub",
               href: "https://github.com/astrawnuts/docs_v2/tree/master/",
@@ -149,8 +146,8 @@ module.exports = {
     ],
   ],
   // ...
-  plugins: [ 'docusaurus-plugin-sass',
-  [ 
+  plugins: ['docusaurus-plugin-sass',
+    [
       '@docusaurus/plugin-pwa',
       {
         debug: true,
@@ -166,56 +163,72 @@ module.exports = {
             rel: "apple-touch-icon",
             sizes: "180x180",
             href: "/img/icons/generator/apple-touch-icon.png",
-        },
-        {
+          },
+          {
             tagName: 'link',
             rel: "icon",
-            type: "image/png" ,
-            sizes: "32x32" ,
+            type: "image/png",
+            sizes: "32x32",
             href: "/img/icons/generator/favicon-32x32.png",
-        },
-        {
+          },
+          {
             tagName: 'link',
             rel: "icon",
-            type: "image/png" ,
-            sizes: "16x16" ,
+            type: "image/png",
+            sizes: "16x16",
             href: "/img/icons/generator/favicon-16x16.png",
-        },
-        {
+          },
+          {
             tagName: 'link',
             rel: "manifest",
             href: "/img/icons/generator/site.webmanifest"
-        },
-        {
+          },
+          {
             tagName: 'link',
             rel: "mask-icon",
             href: "/img/icons/generator/safari-pinned-tab.svg",
             color: "#c00000"
-        
-        },
-        {
+
+          },
+          {
             tagName: 'link',
             rel: "shortcut icon",
             href: "/img/icons/generator/favicon.ico",
-        },
-        {
+          },
+          {
+            tagName: "meta",
+            name: "apple-mobile-web-app-title",
+            content: "Help Desk"
+          },
+          {
+            tagName: "meta",
+            name: "application-name",
+            content: "Help Desk"
+          },
+
+          {
             tagName: "meta",
             name: "msapplication-TileColor",
             content: "#ffffff"
-        },
-        {
+          },
+          {
+            tagName: "meta",
+            name: "msapplication-TileImage",
+            content: "/img/icons/generator/mstile-144x144.png",
+          },
+          {
             tagName: "meta",
             name: "msapplication-config",
             content: "/img/icons/generator/browserconfig.xml",
-        },
-        {
+          },
+          {
             tagName: "meta",
             name: "theme-color",
-            content: "#1a1c28",
-        }
+            content: "#2e3148",
+          }
         ],
       },
-      ],
+    ],
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
