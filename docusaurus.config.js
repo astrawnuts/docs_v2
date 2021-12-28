@@ -4,9 +4,9 @@ const path = require('path');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Docs",
+  title: "Help Desk",
   tagline: "Say Hello to Knowledge",
-  url: "https://helpdesk-taxmatterz.netlify.app",
+  url: "https://help.taxmatterz.com",
   baseUrl: "/",
   onBrokenLinks: "warn", //ignore, log, warn, error, throw
   onBrokenMarkdownLinks: "warn",
@@ -18,7 +18,7 @@ module.exports = {
       title: "",
       logo: {
         alt: "Tax Matterz Logo",
-        src: "img/tm.logo.svg",
+        src: "img/logo.svg",
       },
       items: [
         {
