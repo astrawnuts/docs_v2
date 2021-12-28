@@ -230,7 +230,7 @@ module.exports = {
           {
             tagName: "meta", 
             name: "apple-mobile-web-app-status-bar-style", 
-            content: "black-translucent", 
+            content: "black", 
           }, 
           {
             tagName: "meta",
