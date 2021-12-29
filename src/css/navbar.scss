@@ -36,7 +36,7 @@ $primary: #2e3148;
 //the logo in the navbar
 .navbar__logo {
   flex: 0 0 auto;
-  height: 4rem;
+  // height: 4rem;
   margin-right: 0.5rem;
 }
 
@@ -57,12 +57,13 @@ $primary: #2e3148;
 }
 
 .navbar-sidebar__brand {
-  height: var(--NAVBAR-HEIGHT);
+  // height: var(--NAVBAR-HEIGHT);
 }
 
 // Uses a pseudo element => inspired by website reactnative.dev
 .navbar {
-  height: var(--NAVBAR-HEIGHT);
+  // height: var(--NAVBAR-HEIGHT);
+  height: 4rem;
 
   //the navbar link colour
   .navbar__link {
@@ -76,7 +77,7 @@ $primary: #2e3148;
         background: #47c2e1;
         content: "";
         display: flex;
-        height: 5px;
+        // height: 5px;
         margin-left: -20px;
         margin-right: -20px;
         // margin-top: 0.1rem;
