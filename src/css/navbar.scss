@@ -58,6 +58,7 @@ $primary: #2e3148;
 
 .navbar-sidebar__brand {
   // height: var(--NAVBAR-HEIGHT);
+  height: 4rem;
 }
 
 // Uses a pseudo element => inspired by website reactnative.dev
@@ -124,5 +125,5 @@ html[data-theme="dark"] {
 
 .navbar__logo img {
 	height: 180%;
-  margin-top: -12px;
+  margin-top: -13px;
 }
