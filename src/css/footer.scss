@@ -59,3 +59,35 @@ $primary: #2e3148;
   cursor: default;
   width: 24ch;
 }
+
+//edit page button
+.theme-edit-this-page {
+  border: 1px solid hsl(214, 82%, 51%);
+  padding: 1rem;
+  border-radius: 0.25rem;
+
+  &:hover, &:focus, &:active {
+    background-color: #1b74e9;
+    color: white;
+  }
+
+}
+
+// Mobile Screen Size add some margin to the last child 
+@media screen and (max-width: 996px) {
+  // The edit button on small screen
+  .theme-doc-footer-edit-meta-row {
+    .col:last-child {
+      margin-top: 2rem;
+    }
+  }
+}
+
+
+// blog edit this url page
+footer {
+  // apply the large margin top even to the small margin top class in the footer and blog page only
+  .margin-top--sm {
+    margin-top: 2rem !important;
+  }
+}

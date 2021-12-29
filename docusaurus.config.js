@@ -131,6 +131,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           routeBasePath: "/",
+          // editUrl: "https://github.com/astrawnuts/docs_v2/tree/master/",
           editUrl: "https://github.com/astrawnuts/docs_v2/tree/master/",
           showLastUpdateTime: true,
         },
