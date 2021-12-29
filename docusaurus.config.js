@@ -106,7 +106,11 @@ module.exports = {
               to: "https://helpdesk-taxmatterz.netlify.app/admin"
             },
             {
-              label: "GitHub",
+              label: "Submit Feedback",
+              href: "https://github.com/astrawnuts/docs_v2/tree/master/",
+            },
+            {
+              label: "Report An Issue",
               href: "https://github.com/astrawnuts/docs_v2/tree/master/",
             },
             {
