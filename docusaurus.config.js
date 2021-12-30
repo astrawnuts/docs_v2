@@ -151,7 +151,13 @@ module.exports = {
     ],
   ],
   // ...
-  plugins: ['docusaurus-plugin-sass',
+  plugins: [
+    'docusaurus-plugin-sass',
+    '@docusaurus/plugin-google-analytics',
+    {
+      trackingID: 'G-P6VVZK5PL1',
+      anonymizeIP: true,
+    },
     [
       '@docusaurus/plugin-pwa',
       {

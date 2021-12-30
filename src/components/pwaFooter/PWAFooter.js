@@ -13,7 +13,7 @@ export default function PWAFooter() {
     if (navigator.share) {
       let currentPage = window.location.href.toString();
       let currentPageTitle = document.title.toString();
-      let text = "👀 See this article on Help Desk By Tax Matterz: " + currentPageTitle + " | It may help you answer your question. | 💬 Talk to us for your next website design. ";
+      let text = "👀 See this article on Help Desk By Tax Matterz: " + currentPageTitle + " | It may help you answer your question. | 💬 Talk to us for your next website design project.";
 
       navigator
         .share({
@@ -21,7 +21,7 @@ export default function PWAFooter() {
           text: text, 
           url: currentPage,
         })
-        
+
         .then(() => console.log("Share was successful."))
         .catch((error) => console.log("Sharing failed", error));
     } else {
