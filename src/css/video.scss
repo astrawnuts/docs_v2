@@ -24,24 +24,67 @@
 }
 
 //this fixes weird bugs that make embedded youtube video appear at their proper resolution
-iframe {
-  aspect-ratio: 16 / 9;
-}
+/**
+ * However this method is not supported on older browsers (even on ios 14 Safari So a hack has been used below)
+ */
+// iframe {
+//   aspect-ratio: 16 / 9;
+// }
 
 
 /** Fallback (current, using intrinsic ratio technique) */
 // fall back for browsers that dont support aspect ratio
-@supports not (aspect-ratio: 16 / 9) {
-    iframe::before {
+// @supports not (aspect-ratio: 16 / 9) {
+    // iframe::before {
+    //   float: left;
+    //   padding-top: 56.25%;
+    //   content: "";
+    // }
+  
+    // iframe:after {
+    //   display: block;
+    //   content: "";
+    //   clear: both;
+    // }
+  // }
+  
+  //this fixes weird bugs that make embedded youtube video appear at their proper resolution
+/**
+ * However this method is not supported on older browsers (even on ios 14 Safari So a hack has been used below)
+ */
+  .player-wrapper {
+    position: relative;
+    // background-color: green; /** Just For Testing That the CSS is Working */
+
+    &::before {
       float: left;
       padding-top: 56.25%;
-      content: "";
+      content: '';
     }
-  
-    iframe:after {
+
+    &::after {
       display: block;
-      content: "";
+      content: '';
       clear: both;
     }
+
+    // Selects the first descendent of player wrapper which is a youtube Video div
+    & > :first-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
   }
-  
+
+  //this fixes weird bugs that make embedded youtube video appear at their proper resolution
+/**
+ * However this method is not supported on older browsers (even on ios 14 Safari So a hack has been used below)
+ */
+
+
