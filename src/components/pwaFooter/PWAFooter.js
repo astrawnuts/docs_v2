@@ -13,12 +13,15 @@ export default function PWAFooter() {
     if (navigator.share) {
       let currentPage = window.location.href.toString();
       let currentPageTitle = document.title.toString();
-      let text = "👀 See this article on Help Desk By Tax Matterz: " + currentPageTitle + " | It may help you answer your question. | 💬 Talk to us for your next website design project.";
+      let text =
+        "👀 See this article on Help Desk By Tax Matterz: " +
+        currentPageTitle +
+        " | It may help you answer your question. | 💬 Talk to us for your next website design project.";
 
       navigator
         .share({
           title: currentPageTitle,
-          text: text, 
+          text: text,
           url: currentPage,
         })
 
@@ -31,6 +34,12 @@ export default function PWAFooter() {
 
   return (
     <>
+      <div className="container">
+        <div class="row">
+          <button className="button button--primary button--lg">Print Page</button>
+          <button className="button button--info button--lg">Share Article</button>
+        </div>
+      </div>
       <div className="tab-bar">
         <div className="container">
           <div className="row-bar">
