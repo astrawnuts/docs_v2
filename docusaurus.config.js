@@ -6,7 +6,7 @@ const path = require('path');
 module.exports = {
   title: "Help Desk",
   tagline: "Say Hello to Knowledge",
-  url: "https://helpdesk-taxmatterz.netlify.app",
+  url: "https://help.taxmatterz.com",
   baseUrl: "/",
   onBrokenLinks: "warn", //ignore, log, warn, error, throw
   onBrokenMarkdownLinks: "warn",
@@ -103,7 +103,7 @@ module.exports = {
             },
             {
               label: "CMS",
-              to: "https://helpdesk-taxmatterz.netlify.app/admin"
+              to: "https://help.taxmatterz.com/admin"
             },
             {
               label: "Submit Feedback",

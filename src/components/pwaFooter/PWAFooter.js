@@ -34,12 +34,6 @@ export default function PWAFooter() {
 
   return (
     <>
-      <div className="container">
-        <div class="row">
-          <button className="button button--primary button--lg">Print Page</button>
-          <button className="button button--info button--lg">Share Article</button>
-        </div>
-      </div>
       <div className="tab-bar">
         <div className="container">
           <div className="row-bar">

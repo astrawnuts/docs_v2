@@ -90,4 +90,16 @@ footer {
   .margin-top--sm {
     margin-top: 2rem !important;
   }
+
+
+}
+
+.footer-actions-buttons {
+  margin: 0 auto;
+  max-width: var(--ifm-container-width);
+  padding: 0 var(--ifm-spacing-horizontal);
+  /* width: 100%; */
+  width: 60%;
+  // padding-top: 1rem;
+  // padding-bottom: 1rem;
 }
