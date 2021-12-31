@@ -13,6 +13,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "Tax Matterz", // Usually your GitHub org/user name.
   projectName: "Help Desk", // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: "",
