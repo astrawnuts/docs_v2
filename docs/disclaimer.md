@@ -22,5 +22,5 @@ Every effort is made to keep the website up and running smoothly. However, Tax M
 
 Before taking any action or decision consult a Tax Matterz professional for expert advice. 
 
-“Tax Matterz” the accounting and taxation services business may and its employees may be referred to as “we”, “us”, “our”, “Tax Matters”
+“Tax Matterz” the accounting and taxation services business and its employees may be referred to as “we”, “us”, “our”, "Tax Matterz", and or  “Tax Matters”.
 
