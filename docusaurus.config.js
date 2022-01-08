@@ -49,7 +49,10 @@ module.exports = {
         {
           title: "Tax Matterz NZ Limited",
           items: [
-
+            {
+              label: "Formerly Tax Matters",
+              to: "/",
+            },
             {
               label: "Auckland New Zealand",
               to: "/",
