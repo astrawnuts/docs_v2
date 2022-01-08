@@ -3,6 +3,7 @@ title: 🤝 How to enable Third Party Access in MyIR Online
 sidebar_label: 🤝 How to enable Third Party Access in MyIR Online  
 slug: enable-third-party-access-in-my-ir
 date: 2021-10-29T05:57:02.379Z
+sidebar_position: 3
 ---
 # <div class="emoji">🤝</div> Enable third party access in MyIR. 
 

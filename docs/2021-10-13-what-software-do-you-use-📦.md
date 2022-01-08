@@ -3,6 +3,7 @@ title: 📦 What software do you use?
 sidebar_label: 📦 What Software Do You Use? 
 slug: what-software-do-you-use
 date: 2021-10-13T05:13:59.411Z
+sidebar_position: 2
 ---
 
 # <div class="emoji">📦</div> additional Software
