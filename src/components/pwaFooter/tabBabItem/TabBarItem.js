@@ -2,8 +2,8 @@ import React from "react";
 
 export default function TabBarItem({ labelText, labelIcon }) {
   return (
-      <span className="col-bar">
-        <div className="icon">
+      <span class="col-bar">
+        <div class="icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -14,13 +14,13 @@ export default function TabBarItem({ labelText, labelIcon }) {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            className="feather feather-airplay"
+            class="feather feather-airplay"
           >
             <path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path>
             <polygon points="12 15 17 21 7 21 12 15"></polygon>
           </svg>
         </div>
-        <div className="label">{labelText}</div>
+        <div class="label">{labelText}</div>
       </span>
   );
 }

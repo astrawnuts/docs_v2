@@ -34,12 +34,12 @@ export default function PWAFooter() {
 
   return (
     <>
-      <div className="tab-bar">
-        <div className="container">
-          <div className="row-bar">
+      <div class="tab-bar">
+        <div class="container">
+          <div class="row-bar">
             <Link to="/">
               <button
-                className="col-bar __active"
+                class="col-bar __active"
                 onClick={() => {
                   let width = window.innerWidth;
                   console.log(width);
@@ -55,7 +55,7 @@ export default function PWAFooter() {
                 }}
               >
                 {/* Articles Button */}
-                <div className="icon">
+                <div class="icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -66,18 +66,18 @@ export default function PWAFooter() {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    className="feather feather-book-open"
+                    class="feather feather-book-open"
                   >
                     <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
                     <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
                   </svg>
                 </div>
-                <div className="label">Articles</div>
+                <div class="label">Articles</div>
               </button>
             </Link>
 
             <button
-              className="col-bar"
+              class="col-bar"
               onClick={() => {
                 document
                   .querySelector("button.aa-DetachedSearchButton")
@@ -85,7 +85,7 @@ export default function PWAFooter() {
               }}
             >
               {/* Search Button Below */}
-              <div className="icon">
+              <div class="icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -96,18 +96,18 @@ export default function PWAFooter() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  className="feather feather-search"
+                  class="feather feather-search"
                 >
                   <circle cx="11" cy="11" r="8"></circle>
                   <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                 </svg>
               </div>
-              <div className="label">Search</div>
+              <div class="label">Search</div>
             </button>
 
-            <button className="col-bar" onClick={() => sharePage()}>
+            <button class="col-bar" onClick={() => sharePage()}>
               {/* Share Button Below */}
-              <div className="icon">
+              <div class="icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -118,19 +118,19 @@ export default function PWAFooter() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  className="feather feather-share"
+                  class="feather feather-share"
                 >
                   <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
                   <polyline points="16 6 12 2 8 6"></polyline>
                   <line x1="12" y1="2" x2="12" y2="15"></line>
                 </svg>
               </div>
-              <div className="label">Share</div>
+              <div class="label">Share</div>
             </button>
 
-            <button className="col-bar" onClick={() => topFunction()}>
+            <button class="col-bar" onClick={() => topFunction()}>
               {/* Scroll To Top Button */}
-              <div className="icon">
+              <div class="icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -141,13 +141,13 @@ export default function PWAFooter() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  className="feather feather-corner-right-up"
+                  class="feather feather-corner-right-up"
                 >
                   <polyline points="10 9 15 4 20 9"></polyline>
                   <path d="M4 20h7a4 4 0 0 0 4-4V4"></path>
                 </svg>
               </div>
-              <div className="label">Go Top</div>
+              <div class="label">Go Top</div>
             </button>
           </div>
         </div>

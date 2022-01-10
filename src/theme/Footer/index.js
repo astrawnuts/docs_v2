@@ -22,7 +22,7 @@ function FooterLink({ to, href, label, prependBaseUrlToHref, ...props }) {
   });
   return (
     <Link
-      className="footer__link-item"
+      class="footer__link-item"
       {...(href
         ? {
             href: prependBaseUrlToHref ? normalizedHref : href,
@@ -47,7 +47,7 @@ function FooterLink({ to, href, label, prependBaseUrlToHref, ...props }) {
 function FooterLogo({ sources, alt, width, height }) {
   return (
     <ThemedImage
-      className="footer__logo"
+      class="footer__logo"
       alt={alt}
       sources={sources}
       width={width}
@@ -72,27 +72,27 @@ function Footer() {
     <>
       <PWAFooter />
       <footer
-        className={clsx("footer", {
+        class={clsx("footer", {
           "footer--dark": footer.style === "dark",
         })}
       >
-        <div className="container">
+        <div class="container">
           {links && links.length > 0 && (
-            <div className="row footer__links">
+            <div class="row footer__links">
               {links.map((linkItem, i) => (
-                <div key={i} className="col footer__col">
+                <div key={i} class="col footer__col">
                   {linkItem.title != null ? (
-                    <div className="footer__title">{linkItem.title}</div>
+                    <div class="footer__title">{linkItem.title}</div>
                   ) : null}
                   {linkItem.items != null &&
                   Array.isArray(linkItem.items) &&
                   linkItem.items.length > 0 ? (
-                    <ul className="footer__items">
+                    <ul class="footer__items">
                       {linkItem.items.map((item, key) =>
                         item.html ? (
                           <li
                             key={key}
-                            className="footer__item" // Developer provided the HTML, so assume it's safe.
+                            class="footer__item" // Developer provided the HTML, so assume it's safe.
                             // eslint-disable-next-line react/no-danger
                             dangerouslySetInnerHTML={{
                               __html: item.html,
@@ -101,7 +101,7 @@ function Footer() {
                         ) : (
                           <li
                             key={item.href || item.to}
-                            className="footer__item"
+                            class="footer__item"
                           >
                             <FooterLink {...item} />
                           </li>
@@ -114,11 +114,11 @@ function Footer() {
             </div>
           )}
           {(logo || copyright) && (
-            <div className="footer__bottom text--center">
+            <div class="footer__bottom text--center">
               {logo && (logo.src || logo.srcDark) && (
-                <div className="margin-bottom--sm">
+                <div class="margin-bottom--sm">
                   {logo.href ? (
-                    <Link href={logo.href} className={styles.footerLogoLink}>
+                    <Link href={logo.href} class={styles.footerLogoLink}>
                       <FooterLogo
                         alt={logo.alt}
                         sources={sources}
@@ -133,7 +133,7 @@ function Footer() {
               )}
               {copyright ? (
                 <div
-                  className="footer__copyright" // Developer provided the HTML, so assume it's safe.
+                  class="footer__copyright" // Developer provided the HTML, so assume it's safe.
                   // eslint-disable-next-line react/no-danger
                   dangerouslySetInnerHTML={{
                     __html: copyright,
