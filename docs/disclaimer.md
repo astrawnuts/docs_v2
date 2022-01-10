@@ -10,7 +10,7 @@ The information contained on this website here forth referred to as “website�
 
 Information, laws and regulations are frequently updated and changed. Taking this factor into consideration their may be significant delays, electronic faults and or failures, omissions, and or inaccuracies in the information we have provided in Help Desk.  
 
-### Disclaimer of liabilities:  
+## Disclaimer of liabilities  
 
 While we “Tax Matterz” and its employees endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, availability with respect to the website or the compiled information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
 
