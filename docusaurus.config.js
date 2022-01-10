@@ -30,7 +30,7 @@ module.exports = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://taxmattersnz.co.nz",
+          href: "https://taxmatterz.com",
           label: "Return to Tax Matterz",
           position: "right",
         },
@@ -41,7 +41,7 @@ module.exports = {
       logo: {
         alt: 'Tax Matterz Logo',
         src: 'img/logo.original.svg', // with respect to static dir
-        href: 'https://taxmattersnz.co.nz',
+        href: 'https://taxmatterz.com',
       },
 
       style: "dark",
@@ -63,7 +63,7 @@ module.exports = {
             },
             {
               label: "Get your website designed by Tax Matterz. Get in touch with us to learn more.",
-              to: "/",
+              to: "https://taxmatterz.com/contactus",
             },
           ],
         },
@@ -81,20 +81,20 @@ module.exports = {
           items: [
             {
               label: "Home",
-              href: "https://taxmatterz.co/",
+              href: "https://taxmatterz.com/",
             },
             {
               label: "Services",
-              href: "https://taxmatterz.co/services",
+              href: "https://taxmatterz.com/services",
             },
             {
               label: "Forms",
-              href: "https://taxmatterz.co/forms",
+              href: "https://taxmatterz.com/forms",
             },
 
             {
               label: "Contact Us",
-              href: "https://taxmatterz.co/contactus",
+              href: "https://taxmatterz.com/contactus",
             },
           ],
         },
