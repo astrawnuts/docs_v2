@@ -66,7 +66,7 @@ export default function PWAFooter() {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="feather feather-book-open"
+                    className="feather feather-book-open"
                   >
                     <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
                     <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
@@ -96,7 +96,7 @@ export default function PWAFooter() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="feather feather-search"
+                  className="feather feather-search"
                 >
                   <circle cx="11" cy="11" r="8"></circle>
                   <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -118,7 +118,7 @@ export default function PWAFooter() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="feather feather-share"
+                  className="feather feather-share"
                 >
                   <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
                   <polyline points="16 6 12 2 8 6"></polyline>
@@ -141,7 +141,7 @@ export default function PWAFooter() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="feather feather-corner-right-up"
+                  className="feather feather-corner-right-up"
                 >
                   <polyline points="10 9 15 4 20 9"></polyline>
                   <path d="M4 20h7a4 4 0 0 0 4-4V4"></path>
