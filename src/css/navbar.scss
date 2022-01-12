@@ -29,7 +29,7 @@ $primary: #2e3148;
 
   --ifm-link-color: #1b74e9;
 
-  --NAVBAR-HEIGHT: 5rem;
+  // --NAVBAR-HEIGHT: 5rem;
 }
 
 
@@ -58,13 +58,13 @@ $primary: #2e3148;
 
 .navbar-sidebar__brand {
   // height: var(--NAVBAR-HEIGHT);
-  height: 4rem;
+  // height: 4rem;
 }
 
 // Uses a pseudo element => inspired by website reactnative.dev
 .navbar {
   // height: var(--NAVBAR-HEIGHT);
-  height: 4rem;
+  // height: 4rem;
 
   //the navbar link colour
   .navbar__link {
