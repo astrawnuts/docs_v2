@@ -6,6 +6,8 @@ media_folder: "img/uploads" # Media files will be stored in the repo under image
 
 collections:
   - name: "docs" # Used in routes, e.g., /admin/collections/blog
+    extension: 'mdx', # adding support for mdx files
+    format: 'frontmatter', # adding support for mdx files
     label: "Docs" # Used in the UI
     folder: "docs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
