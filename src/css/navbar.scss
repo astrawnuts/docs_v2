@@ -132,3 +132,8 @@ html[data-theme="dark"] {
 	font-size: 0.875rem;
   text-transform: capitalize;
 }
+
+.menu__caret, .menu__link {
+	// padding: var(--ifm-menu-link-padding-vertical) var(--ifm-menu-link-padding-horizontal);
+	padding: 0.5rem 1rem; //default is 0.375
+}
