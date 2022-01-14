@@ -158,7 +158,7 @@ module.exports = {
   plugins: [
     'docusaurus-plugin-sass',
     [
-      '@docusaurus/plugin-google-analytics',
+      '@docusaurus/plugin-google-gtag',
       {
         trackingID: 'G-P6VVZK5PL1',
         anonymizeIP: true,

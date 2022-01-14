@@ -4,17 +4,10 @@
  * Custom.scss file is global styles for the whole site
 */
 // @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-body {
-  font-family: 'Open Sans', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-=======
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 body {
-  font-family: 'Noto Sans','Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
->>>>>>> 128369a1c0cd5fc5e160e1a597569215ddfef56f
+  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-display: swap;
 }
 
@@ -28,7 +21,7 @@ h4,
 h5,
 h6 {
   text-transform: capitalize;
-  font-family: 'Noto Sans','Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 700;
   font-display: swap;
 }
