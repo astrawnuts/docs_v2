@@ -37,44 +37,37 @@ export default function PWAFooter() {
       <div class="tab-bar">
         <div class="container">
           <div class="row-bar">
-            <Link to="/">
-              <button
-                class="col-bar __active"
-                onClick={() => {
-                  let width = window.innerWidth;
-                  console.log(width);
-                  //if app is in mobile mode (without sidebar)
-                  if (width <= 996) {
-                    event.preventDefault();
-                    document.querySelector("button.navbar__toggle").click();
-                  } else {
-                    // window.location.href = "/";
-                  }
+            <button
+              class="col-bar __active"
+              onClick={() => {
+                let width = window.innerWidth;
+                console.log(width);
+                //if app is in mobile mode (without sidebar)
+                if (width <= 996) {
+                  event.preventDefault();
+                  document.querySelector("button.navbar__toggle").click();
+                } else {
+                  // window.location.href = "/";
+                }
 
-                  //if desktop view is showing
-                }}
-              >
-                {/* Articles Button */}
-                <div class="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-book-open"
-                  >
-                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-                  </svg>
-                </div>
-                <div class="label">Articles</div>
-              </button>
-            </Link>
+                //if desktop view is showing
+              }}
+            >
+              {/* Articles Button */}
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="currentColor"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 1l-5 5v11l5-4.5V1zM1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5V6c-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6zm22 13.5V6c-.6-.45-1.25-.75-2-1v13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5v2c1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5v-1.1z" />
+                </svg>
+              </div>
+              <div class="label">Articles</div>
+            </button>
 
             <button
               class="col-bar"
