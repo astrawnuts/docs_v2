@@ -36,7 +36,7 @@
     display: block;
     width: 100%;
     height: calc(max(calc(100vh * (106 / 1366)), 60px) + 17px);
-    background-color: lighten(#2e3148, 60%);
+    background-color: lighten(#c0c1ce, 60%);
     overflow-x: hidden;
     overflow: hidden;
     position: fixed;
@@ -104,8 +104,13 @@
 //how to appear in dark mode
 html[data-theme="dark"] {
   .tab-bar {
-    background-color: hsl(231, 21%, 3%);
-    border-top: 1px solid black;
+    // background-color: hsl(231, 21%, 3%);
+    background-color: darken(#1a1c28, 30%);
+    background: darken(#1a1c28, 30%);
+    background: #0c0d13;
+
+    border-top: 1px solid#606770;
+    border-bottom: 1px solid #606770;
     // box-shadow: 2px -7px 37px -2px rgba(99,108,156,0.19);
     // -webkit-box-shadow: 2px -7px 37px -2px rgba(99,108,156,0.19);
     // -moz-box-shadow: 2px -7px 37px -2px rgba(99,108,156,0.19);
