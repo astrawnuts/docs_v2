@@ -67,3 +67,18 @@ html {
   }
 }
 
+// light horizontal line
+.hr {
+  height: 1px;
+  background-color: #dadde1;
+  border: none;
+}
+
+html[data-theme="dark"] {
+  .hr {
+    height: 1px;
+    background-color: #e6a700;
+    border: none;
+  }
+}
+
